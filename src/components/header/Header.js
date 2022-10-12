@@ -19,7 +19,7 @@ const Header = () => {
   <Grid className='navlogo' item xs={2}>
 
  
-<p>  <Link className='navlogo1' to="/">D2Dpro </Link></p>  
+<p>  <Link className='navlogo1' to="/">D2Dpro project </Link></p>  
 
 
   </Grid> 
