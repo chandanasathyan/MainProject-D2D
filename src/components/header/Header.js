@@ -27,6 +27,7 @@ const Header = () => {
   <nav >
 
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/domains">DOMAINS</Link>  
+<Link  style={{textDecoration:"none"}}  className='navlink1' to="/domains">DOMAINSnew</Link>  
 
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/testimonials">TESTIMONIALS</Link>  
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/about">ABOUT US</Link>  
