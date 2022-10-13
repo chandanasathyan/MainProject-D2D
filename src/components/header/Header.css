@@ -1,7 +1,7 @@
 .navbar{
- 
+
     justify-content: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .logoimg{
     justify-content: end;
@@ -9,37 +9,46 @@ align-items: end;
 transform: translateX(100px);
 }
 .navlogo{
-    text-align: right;
+    text-align: center;
+
        
     }
     .navlogo1{
-    color: #111;
+        color:#111;
     text-decoration: none;
     font-weight: 800;
     font-size: 15px;
+
+  
     }
+    
+  
+
     .navlogo1:hover{
-        color: #111;
+        color:#111;
         text-decoration: none;
     }
     
     .navlink {
+
         text-align: right;
         list-style-type: none; 
-    
-    }
+      
+
+   }
 
     
     .navlink1{
-        color: #111;
+        color:#111;
         text-decoration: none;
         margin: 20px;
         font-weight: bold;
         font-size: 14px;
+        /* margin-left: 50px; */
         position: relative;
         }
         
-        /* .navlink1::before{
+        .navlink1::before{
             content: "";
             background-color: #111;
             color: #111;
@@ -58,10 +67,10 @@ transform: translateX(100px);
           transform: scaleX(1);
             transform-origin: left;
         
-        } */
+        }
         .navlink1:hover{
             text-decoration: none;
-            color: #111;
+            color:#111;
         }
         
         .navbutton{
@@ -88,13 +97,38 @@ transform: translateX(100px);
             padding-right: 20px;
         }
         
+        /* tab */
         
+        .navtablogo1{
+            color:#111;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 15px;
+
+        }
         
+        .navtablogodiv{
+            margin-top: 8px;
+            margin-left: 20px;
+       
+        }
+        .icontab{
+        align-items: end;
+        text-align: end;
+            /* margin-top: 20px;  */
+        }      
         
-        
-        
-        
-        
-        
-        
-        
+.tabnav{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+       
+
+/* responsive */
+
+/* @media only screen and (max-width: 1024px){
+    .navlink1{
+      font-size: 13px;
+        }
+}         */

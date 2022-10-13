@@ -12,10 +12,11 @@ import About from './pages/aboutus/About'
 function App() {
   return (
     <>
+
 <Header/>
 
-
   <Routes>
+
          <Route path="/" element={<Home/>} />
  <Route path="/testimonials" element={<Testmonials/>} />  
  <Route path="/domains" element={<Domain/>} />  
