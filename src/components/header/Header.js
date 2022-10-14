@@ -33,6 +33,7 @@ const Header = () => {
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/contact">CONTACT US</Link>  
 
 </nav>
+
  </Grid>  
 
   </Grid>

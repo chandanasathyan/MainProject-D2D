@@ -8,11 +8,53 @@ import {AiOutlineClose} from "react-icons/ai";
 const Drawericon = () => {
 
 
-  const [open,setOpen] = useState(false)
+  const [clicked,setClicked] = useState(false)
+  
+  const handleClick = () =>{
+    setClicked(!clicked)
+  }
 
   return (
     <>
-     <Grid container sx={{ display: { xs: 'flex', sm:"flex", md:"none", lg: 'none', xl: 'none' } }} >
+
+<div className='mobile' onClick={handleClick}>
+
+{clicked?<AiOutlineClose/>: <HiOutlineMenu/> }  
+
+
+</div>
+<div className='navtablink' > 
+<ul>
+   <p> <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">DOMAINS</Link> </p>  
+   <p> <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">TESTIMONIALS</Link>   </p>
+   <p> <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">ABOUT US</Link> </p>  
+   <p>   <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">CONTACT US</Link> </p>  
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     {/* <Grid container sx={{ display: { xs: 'flex', sm:"flex", md:"none", lg: 'none', xl: 'none' } }} >
     <Drawer   anchor='right' PaperProps={{
      sx:{backgroundColor:"#fff",width:"50%"}
     }} open={open}  >
@@ -31,15 +73,18 @@ const Drawericon = () => {
 
 </ul>
 </div>
+
+
+*/}
 {/* <div className='navtabbutton'>
   <button className='navtabbutton1' >the group <i  class="fa fa-arrow-right" aria-hidden="true"></i></button>
  
   </div> */}
-     </Drawer>
+     {/* </Drawer>
      <div className='navfabar'>
      <Typography  onClick={()=>setOpen(true)}><button  className='navfabars' ><i class="fa fa-bars" aria-hidden="true"></i> </button>  </Typography>
      </div>
-     </Grid>
+     </Grid> */}
 
     
     
