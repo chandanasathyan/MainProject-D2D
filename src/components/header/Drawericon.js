@@ -8,33 +8,13 @@ import {AiOutlineClose} from "react-icons/ai";
 const Drawericon = () => {
 
 
-  const [clicked,setClicked] = useState(false)
+  const [open,setOpen] = useState(false)
   
-  const handleClick = () =>{
-    setClicked(!clicked)
-  }
+
 
   return (
     <>
 
-<div className='mobile' onClick={handleClick}>
-
-{clicked?<AiOutlineClose/>: <HiOutlineMenu/> }  
-
-
-</div>
-<div className='navtablink' > 
-<ul>
-   <p> <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">DOMAINS</Link> </p>  
-   <p> <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">TESTIMONIALS</Link>   </p>
-   <p> <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">ABOUT US</Link> </p>  
-   <p>   <Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">CONTACT US</Link> </p>  
-
-
-
-
-</ul>
-</div>
 
 
 
@@ -54,19 +34,19 @@ const Drawericon = () => {
 
 
 
-     {/* <Grid container sx={{ display: { xs: 'flex', sm:"flex", md:"none", lg: 'none', xl: 'none' } }} >
+  <Grid container sx={{ display: { xs: 'flex', sm:"flex", md:"none", lg: 'none', xl: 'none' } }} >
     <Drawer   anchor='right' PaperProps={{
-     sx:{backgroundColor:"#fff",width:"50%"}
+     sx:{backgroundColor:"#fff"}
     }} open={open}  >
    <div className='close' >
     <p onClick={()=>{setOpen(false)}}><AiOutlineClose/></p>
     </div>
 <div className='navtablink' > 
 <ul>
-    <li><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">DOMAINS</Link>   </li>
-    <li><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">TESTIMONIALS</Link>   </li>
-    <li><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">ABOUT US</Link>   </li>
-       <li><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">CONTACT US</Link>   </li>
+    <li onClick={()=>{setOpen(false)}} ><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/domains">DOMAINS</Link>   </li>
+    <li onClick={()=>{setOpen(false)}} ><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/testimonials">TESTIMONIALS</Link>   </li>
+    <li onClick={()=>{setOpen(false)}} ><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/about">ABOUT US</Link>   </li>
+       <li onClick={()=>{setOpen(false)}} ><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/contact">CONTACT US</Link>   </li>
 
 
 
@@ -75,16 +55,18 @@ const Drawericon = () => {
 </div>
 
 
-*/}
-{/* <div className='navtabbutton'>
+{/* 
+ <div className='navtabbutton'>
   <button className='navtabbutton1' >the group <i  class="fa fa-arrow-right" aria-hidden="true"></i></button>
  
   </div> */}
-     {/* </Drawer>
+
+
+   </Drawer>
      <div className='navfabar'>
      <Typography  onClick={()=>setOpen(true)}><button  className='navfabars' ><i class="fa fa-bars" aria-hidden="true"></i> </button>  </Typography>
      </div>
-     </Grid> */}
+     </Grid> 
 
     
     

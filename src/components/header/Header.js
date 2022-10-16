@@ -18,14 +18,14 @@ const Header = () => {
        
  <Grid className='navlogo' item md={3}  lg={3} > 
 
- 
-<p>  <Link className='navlogo1' to="/">D2DPro <span>Solutions</span></Link></p>  
+ <div className='logo'>
+<p>  <Link className='navlogo1' to="/">D2DPro <span>Solutions</span></Link></p>  </div>
 
 
 
   </Grid> 
- <Grid style={{textDecoration:"none"}} className='navlink'  item   md={8.6} lg={8} >
-  <nav >
+ <Grid style={{textDecoration:"none"}} className='navlink'  item   md={8.6} lg={8.3} >
+  <nav className='navlinkss' >
 
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/domains">DOMAINS</Link>  
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/testimonials">TESTIMONIALS</Link>  
@@ -37,6 +37,8 @@ const Header = () => {
  </Grid>  
 
   </Grid>
+
+{/* tab */}
 
 
   <Grid container sx={{ display: { xs: 'flex', sm: 'flex', md: 'none' ,lg:"none" } }} >

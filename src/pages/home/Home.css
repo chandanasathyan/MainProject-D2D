@@ -1,0 +1,34 @@
+ .slideimage1{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.uk-position-center-right, .uk-position-center-left{
+    margin-top: -100px;
+}
+
+
+/* .each-slide{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.each-image{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+  } */
+
+

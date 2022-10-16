@@ -3,10 +3,8 @@
     justify-content: center;
     /* padding: 10px; */
 }
-.logoimg{
-    justify-content: end;
-align-items: end;
-transform: translateX(100px);
+.logo{
+    margin-top: 18px;
 }
 .navlogo{
     text-align: center;
@@ -18,7 +16,7 @@ transform: translateX(100px);
     text-decoration: none;
     font-weight: 800;
     font-size: 15px;
-
+   
   
     }
     
@@ -36,7 +34,9 @@ transform: translateX(100px);
       
 
    }
-
+   .navlinkss{
+    margin-top: 18px;
+   }
     
     .navlink1{
         color:#111;
@@ -108,14 +108,15 @@ transform: translateX(100px);
         }
         
         .navtablogodiv{
-            margin-top: 8px;
+            margin-top: 18px;
             margin-left: 20px;
        
         }
         .icontab{
         align-items: end;
         text-align: end;
-            /* margin-top: 20px;  */
+        margin-top: 13px;
+           
         }      
         
 .tabnav{

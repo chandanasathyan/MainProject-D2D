@@ -1,4 +1,4 @@
-/* .close{
+ .close{
     justify-content: end;
     align-items: end;
     text-align: end;
@@ -14,7 +14,7 @@ width: 100%;
 }
 
 .navtablink li{
-    
+    margin-right: 200px;
     display: block;
     justify-content: right;
     align-items: right;
@@ -106,6 +106,9 @@ line-height: 60px;
         .navfabars{
            margin-left: 15px;
            }
+           .navtablink li{
+            margin-right: 100px;
+           } 
     }
 
     @media only screen and (max-width: 375px) {
@@ -118,49 +121,11 @@ line-height: 60px;
         .navfabars{
            margin-left: 1px;
            }
-    } */
-
-
-    .mobile{
-        color: black;
-    }
-
-
- 
- .navtablink{
-         display: block;
-       /* flex-direction: column;  */
-        align-items: start;
-        justify-content: start; 
-
-       position: fixed;
-        top: 90px;
-        right: 0px;
-        width: 300px;
-        height: 100vh;
-        background: rgb(199, 16, 16) 
-    }  
-
-
-
-
- 
-    .navtablink ul{
-        /* margin-left: 20px; */
-
-        text-align: start;
-        list-style-type: none; 
-    }
-
-
-     .navtablink1{
-    line-height: 60px;
-    
-        color: #111;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 14px;
-        list-style-type: none; 
-        
+           .navtablink li{
+            margin-right: 50px;
+           } 
     } 
+
+
+    
     
