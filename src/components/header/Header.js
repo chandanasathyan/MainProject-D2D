@@ -11,7 +11,7 @@ const Header = () => {
     <>
     
     
- <AppBar  sx={{background:"transparent"}} className='navbar'  >
+ <AppBar  sx={{background:"#fff"}} className='navbar'  >
         <Toolbar>
         <Grid container spacing={2}  sx={{ display: { xs: 'none', sm:"none", md:"flex", lg: 'flex', xl: 'flex' } }}>
   
