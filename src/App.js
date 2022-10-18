@@ -7,6 +7,7 @@ import Contact from './pages/contact/Contact';
 import Testmonials from './pages/testmonials/Testmonials';
 import Domain from './pages/domains/domain'
 import About from './pages/aboutus/About'
+import Footer from './components/header/footer/Footer';
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
  <Route path="/about" element={<About/>} />  
  <Route path="/contact" element={<Contact/>} />  
       </Routes> 
+
+
+   <Footer/>   
 
     </>
   );

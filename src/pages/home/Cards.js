@@ -1,12 +1,10 @@
-import { Box, Card, CardContent, CardMedia, Grid, IconButton, Typography } from '@mui/material'
+import { Box,  CardContent, CardMedia, Grid } from '@mui/material'
 import React from 'react'
 import "./Cards.css"
 
 
 const Cards = () => {
-    const cardStyle = {
-       height:"350px"
-    }
+   
 
   return (
     <>

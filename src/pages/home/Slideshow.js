@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Slideshow.css"
 import {Grid} from "@mui/material";
-import webdevban1 from "../../Assests/Webdevebanner-1.jpg";
-import webdevban2 from "../../Assests/webdevelopmentban-1.jpg";
-import webdevban3 from "../../Assests/Webdevelopmentban-11.jpg";
+import webdev from "../../Assests/webdevelopment.jpg"
+import mobileapp from "../../Assests/mobileapp.jpg"
+import digitalmar from "../../Assests/digitalmarketing.jpg"
+import softtest from "../../Assests/softwaretesting.jpg"
 
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
@@ -19,13 +20,16 @@ const Slideshow = () => {
 
     <ul class="uk-slideshow-items" uk-height-viewport="">
         <li>
-            <img className=' slideimage1' src={webdevban3} alt="" uk-cover/>
+            <img className=' slideimage1' src={webdev} alt="" uk-cover/>
         </li>
         <li>
-            <img className=' slideimage1' src={webdevban3} alt="" uk-cover/>
+            <img className=' slideimage1' src={mobileapp} alt="" uk-cover/>
         </li>
         <li>
-            <img className=' slideimage1' src={webdevban3} alt="" uk-cover/>
+            <img className=' slideimage1' src={digitalmar} alt="" uk-cover/>
+        </li>
+        <li>
+            <img className=' slideimage1' src={softtest} alt="" uk-cover/>
         </li>
     </ul>
 
