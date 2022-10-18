@@ -1,15 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 .card-main-div{
-margin-left: 40px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+.card-main{
+    
+   width: 100%;
+   height: 350px;
+    
+   box-shadow: 0px 0px 7px 0px rgb(116, 105, 105);
+   transition:  0.4s all ease-in-out;
+}
+.card-main:hover{
+   transform: scale(1.03);
 }
 
-.uk-card{
- 
-   width: 90%;
-   height: 350px;
+
+/* cards */
+
+.web-card-head{
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   color: #111;
+   margin-left: -25px;
+}
+
+.card-content-web{
+   font-size: 15px;
+   font-family: 'Poppins', sans-serif;
+}
+.card-content-web li{
+color:blue
+}
+.card-content-web li span{
+   color:#111
+   }
+
+/*  */
+   .mob-card-head{
+      font-family: 'Poppins', sans-serif;
+      font-size: 25px;
+      color: #111;
+      margin-left: -25px;
+   }
    
+   .card-content-mob{
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+   }
+   .card-content-mob li{
+   color:blue
+   }
+   .card-content-mob li span{
+      color:#111
+      }
+
+
+   /*  */
+
+
+      .graph-card-head{
+         font-family: 'Poppins', sans-serif;
+         font-size: 25px;
+         color: #111;
+         margin-left: -25px;
+      }
+      
+      .card-content-graph{
+         font-size: 15px;
+         font-family: 'Poppins', sans-serif;
+      }
+      .card-content-graph li{
+      color:blue
+      }
+      .card-content-graph li span{
+         color:#111
+         }
+      
+/*  */
+
+
+.test-card-head{
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   color: #111;
+   margin-left: -25px;
 }
-.uk-border-circle{
-   width: 50px;
-   height: 50px;
+
+.card-content-test{
+   font-size: 15px;
+   font-family: 'Poppins', sans-serif;
 }
+.card-content-test li{
+color:blue
+}
+.card-content-test li span{
+   color:#111
+   }
+
+
+
+ 
+
+  
+
+   @media only screen and (max-width: 1024px){
+      .web-card-head{
+         font-size: 20px;
+        
+      }
+      .mob-card-head{
+         font-size: 20px;
+        
+      }
+      .graph-card-head{
+         font-size: 20px;
+        
+      }
+      .test-card-head{
+         font-size: 20px;
+        
+      }
+   }
