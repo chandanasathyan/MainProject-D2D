@@ -142,6 +142,39 @@ text-align: start;
     }
 
 
+
+    @media only screen and (max-width: 912px){
+      .footer-head1{
+        font-size: 25px;
+        margin-left: 50px; 
+      }
+      .footer-para1{
+        font-size: 14px;
+      margin-left: 50px;
+        
+    
+    }
+    .footer-head2{
+      font-size: 25px;
+      margin-left: 120px; 
+    }
+    .footer-links{
+      font-size: 13px;
+    margin-left: 140px;
+     
+  }
+  .footer-head3{
+    font-size: 25px;
+    margin-left: 110px; 
+  }
+  .footer-contact{
+    font-size: 14px;
+    margin-left: 110px;
+    margin-right: 0px; 
+  }
+    }
+
+
     @media only screen and (max-width: 768px){
       .footer-head1{
         font-size: 30px;

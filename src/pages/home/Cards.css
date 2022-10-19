@@ -4,7 +4,7 @@
 .card-main-div{
 margin-left: 20px;
 margin-right: 20px;
-margin-top: -100px;
+margin-top: -50px;
 }
 .card-main{
     
@@ -125,3 +125,36 @@ color:blue
         
       }
    }
+
+
+   
+   @media only screen and (max-width: 912px){
+      .card-main-div{
+      
+         margin-top: -250px;
+         }
+
+      .web-card-head{
+         font-size: 17px;
+        
+      }
+      .mob-card-head{
+         font-size: 17px;
+        
+      }
+      .graph-card-head{
+         font-size: 17px;
+        
+      }
+      .test-card-head{
+         font-size: 17px;
+        
+      }
+   }
+
+   @media only screen and (max-width: 768px){
+      .card-main-div{
+      
+         margin-top: -50px;
+         }
+      }       
