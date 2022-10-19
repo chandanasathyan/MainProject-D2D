@@ -2,6 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import {  Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
+import Chat from './Chat';
 
 const Footer = () => {
   return (
@@ -54,6 +55,12 @@ const Footer = () => {
 </div>
 
 </Grid>
+
+{/* <Grid item xs={12} >
+<div style={{textAlign:"end",justifyContent:"end",alignItems:"end" }}>
+<Chat/>
+</div>
+</Grid> */}
 
 
 

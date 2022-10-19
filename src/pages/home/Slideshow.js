@@ -16,7 +16,7 @@ const Slideshow = () => {
     <Grid item xs={12}>
 <div className='slideshow-main-div'>
 
-<div class="uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slideshow="ratio: false; autoplay:true;autoplay-interval: 2000;pause-on-hover: false">
+<div class="uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slideshow="ratio: false; autoplay:false;autoplay-interval: 2000;pause-on-hover: false">
 
     <ul class="uk-slideshow-items" uk-height-viewport="">
         <li>

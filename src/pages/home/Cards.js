@@ -191,7 +191,7 @@ const Cards = () => {
         <CardContent >
             <div className='web-card-head'>
             <p >
-          Web development
+          Web Development
           </p>
             </div>
           
@@ -204,17 +204,37 @@ const Cards = () => {
         <CardContent className='card-con'>
           <div className='card-content-web' >
           <li>
-                  <span>Lorem ipsum dolor sit amet </span>  
+              <span>HTML </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>CSS </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Javascript </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Bootstrap </span>  
+                    </li>     
+                    <li>
+              <span>React  </span>  
                     </li>
+                    <li>
+              <span>Angular</span>  
+                    </li>
+                    <li>
+              <span>Laravel </span>  
+                    </li>
+                    <li>
+              <span>Wordpress </span>  
+                    </li>
+                    <li>
+              <span>Express </span>  
+                    </li>
+                    <li>
+              <span>MongoDB </span>  
+                    </li>
+                    
+                    
           </div>
        
         </CardContent>
@@ -254,18 +274,28 @@ const Cards = () => {
       <Box >
         <CardContent >
           <div className='card-content-mob'>
+         
           <li>
-                  <span>Lorem ipsum dolor sit amet </span>  
+              <span>HTML </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>CSS </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Javascript </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>React native</span>  
                     </li>
+                    <li>
+              <span>Flutter </span>  
+                    </li>  
+                    <li>
+              <span>Firebase </span>  
+                    </li>
+                    <li>
+              <span> Ionic </span>  
+                    </li>    
           </div>
        
         </CardContent>
@@ -308,16 +338,22 @@ const Cards = () => {
         <CardContent >
           <div className='card-content-graph' >
           <li>
-                  <span>Lorem ipsum dolor sit amet </span>  
+              <span>Figma</span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span> Adobe XD</span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Adobe illustrator </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Photoshop</span>  
+                    </li>
+                    <li>
+              <span>Logo Design</span>  
+                    </li>  
+                    <li>
+              <span>UI/UX Prototyping</span>  
                     </li>
           </div>
        
@@ -358,16 +394,13 @@ const Cards = () => {
         <CardContent >
           <div className='card-content-test'>
           <li>
-                  <span>Lorem ipsum dolor sit amet </span>  
+              <span>Automation Testing</span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span> Manual Testing</span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
-                    </li>
-                    <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Selenium</span>  
                     </li>
           </div>
        
