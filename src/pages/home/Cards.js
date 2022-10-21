@@ -9,11 +9,11 @@ const Cards = () => {
   return (
     <>
 
-{/* <div className='card-main-div'>
+ <div className='card-main-div'>
 <Grid container spacing={2} >
-<Grid item md={3} sm={6} xs={12} >   */}
+<Grid item md={3} sm={6} xs={12} >   
 
-{/* <div class="uk-card ">
+ <div class="uk-card ">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
@@ -48,10 +48,10 @@ const Cards = () => {
     </div>
    
 </div>
-</Grid> */}
+</Grid> 
 
 
-{/* <Grid item  md={3} sm={6} xs={12} >  
+<Grid item  md={3} sm={6} xs={12} >  
 <div> 
 <div class="uk-card ">
     <div class="uk-card-header">
@@ -87,9 +87,9 @@ const Cards = () => {
    
 </div>
 </div>
-</Grid> */}
+</Grid> 
 
-{/* <Grid item  md={3} sm={6} xs={12} >  
+ <Grid item  md={3} sm={6} xs={12} >  
 <div> 
 <div class="uk-card ">
     <div class="uk-card-header">
@@ -125,10 +125,10 @@ const Cards = () => {
    
 </div>
 </div>
-</Grid> */}
+</Grid> 
 
 
-{/* <Grid item  md={3}sm={6} xs={12} >  
+<Grid item  md={3}sm={6} xs={12} >  
 <div> 
 <div class="uk-card ">
     <div class="uk-card-header">
@@ -167,12 +167,12 @@ const Cards = () => {
 
 </Grid>
 </Grid>
-</div> */}
+</div> 
 
 
 
 
-<div className='card-main-div'>
+{/* <div className='card-main-div'>
 <Grid container spacing={3} >
 <Grid item md={3} sm={6} xs={12}>
 <div className="card-main">
@@ -203,15 +203,18 @@ const Cards = () => {
       <Box >
         <CardContent className='card-con'>
           <div className='card-content-web' >
+
+
+
           <li>
-              <span>HTML </span>  
+              <span>HTML,CSS, Javascript </span>  
                     </li>
                     <li>
               <span>CSS </span>  
-                    </li>
-                    <li>
+                    </li> 
+                 <li>
               <span>Javascript </span>  
-                    </li>
+                    </li> 
                     <li>
               <span>Bootstrap </span>  
                     </li>     
@@ -232,7 +235,7 @@ const Cards = () => {
                     </li>
                     <li>
               <span>MongoDB </span>  
-                    </li>
+                    </li> 
                     
                     
           </div>
@@ -416,7 +419,7 @@ const Cards = () => {
 
 
     </Grid> 
-    </div>
+    </div> */}
 
 
     </>
