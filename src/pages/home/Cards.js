@@ -12,69 +12,105 @@ const Cards = () => {
  <div className='card-main-div'>
 <Grid container spacing={2} >
 <Grid item md={3} sm={6} xs={12} >   
-
+<div className="card-main">
  <div class="uk-card ">
     <div class="uk-card-header">
-        <div class="uk-grid-small uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
+    <div class="uk-grid-small uk-flex-middle" uk-grid>  
+            <div className='card-img-round' >
               <img class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
              
             </div>
-            <div className='card-content'>
+           
                
             
-            <h3 class="uk-card-title ">Web Development</h3>
-              
-                    <li>
-                    Lorem ipsum dolor sit amet 
+            <div className='web-card-head'>
+            <p >
+          Web Development
+          </p>
+          </div>
+          <div className='card-content-web'>
+            <li>
+              <span>HTML,CSS, Javascript </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>CSS </span>  
+                    </li> 
+                 <li>
+              <span>Javascript </span>  
+                    </li> 
+                    <li>
+              <span>Bootstrap </span>  
+                    </li>     
+                    <li>
+              <span>React  </span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Angular</span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Laravel </span>  
                     </li>
-       
+                    <li>
+              <span>Wordpress </span>  
+                    </li>
+                    <li>
+              <span>Express </span>  
+                    </li>
+                    <li>
+              <span>MongoDB </span>  
+                    </li> 
+                    
                 
-
-            </div>
-        </div>
-    </div>
-    <div class="uk-card-body">
-      
+                    </div>
+              
+        </div> 
     </div>
    
+   
+</div>
 </div>
 </Grid> 
 
 
 <Grid item  md={3} sm={6} xs={12} >  
-<div> 
+<div className="card-main">
 <div class="uk-card ">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
-                <img class="uk-border-circle" src="https://image.shutterstock.com/image-vector/ai-letter-vector-logo-260nw-456471202.jpg" alt="Avatar"/>
+        <div className='card-img-round' >
+              <img class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
+             
             </div>
-            <div className='card-content'>
+        
                
             
-               <h3 class="uk-card-title ">Mobile App Development</h3>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
+            <div className='mob-card-head'>
+            <p >
+         Mob App development
+          </p>
+            </div>
+            <div className='card-content-mob'>
+               <li>
+              <span>HTML </span>  
+                    </li>
+                    <li>
+              <span>CSS </span>  
+                    </li>
+                    <li>
+              <span>Javascript </span>  
+                    </li>
+                    <li>
+              <span>React native</span>  
+                    </li>
+                    <li>
+              <span>Flutter </span>  
+                    </li>  
+                    <li>
+              <span>Firebase </span>  
+                    </li>
+                    <li>
+              <span> Ionic </span>  
+                    </li>    
       
                
               
@@ -90,30 +126,42 @@ const Cards = () => {
 </Grid> 
 
  <Grid item  md={3} sm={6} xs={12} >  
-<div> 
+ <div className="card-main">
 <div class="uk-card ">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
-                <img class="uk-border-circle"  src="https://image.shutterstock.com/image-vector/ai-letter-vector-logo-260nw-456471202.jpg" alt="Avatar"/>
+        <div className='card-img-round' >
+              <img class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
+             
             </div>
-            <div className='card-content'>
+          
                
             
-               <h3 class="uk-card-title ">Graphic Designer</h3>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
-                   <li>
-                   Lorem ipsum dolor sit amet 
-                   </li>
-      
+                 <div className='graph-card-head'>
+            <p >
+     Graphic Design
+          </p>
+            </div>
+
+            <div className='card-content-graph'>
+               <li>
+              <span>Figma</span>  
+                    </li>
+                    <li>
+              <span> Adobe XD</span>  
+                    </li>
+                    <li>
+              <span>Adobe illustrator </span>  
+                    </li>
+                    <li>
+              <span>Photoshop</span>  
+                    </li>
+                    <li>
+              <span>Logo Design</span>  
+                    </li>  
+                    <li>
+              <span>UI/UX Prototyping</span>  
+                    </li>
                
               
            </div>
@@ -129,28 +177,31 @@ const Cards = () => {
 
 
 <Grid item  md={3}sm={6} xs={12} >  
-<div> 
+<div className="card-main">
 <div class="uk-card ">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
-                <img class="uk-border-circle"  src="https://image.shutterstock.com/image-vector/ai-letter-vector-logo-260nw-456471202.jpg" alt="Avatar"/>
+        <div className='card-img-round' >
+              <img  class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
+             
             </div>
-            <div className='card-content' >
+          
                
             
-                <h3 class="uk-card-title ">Software testing</h3>
-                    <li>
-                  <span>Lorem ipsum dolor sit amet </span>  
+            <div className='test-card-head'>
+            <p >
+          Software Testing
+          </p>
+            </div>
+            <div className='card-content-test' >
+                <li>
+              <span>Automation Testing</span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
+              <span> Manual Testing</span>  
                     </li>
                     <li>
-                    Lorem ipsum dolor sit amet 
-                    </li>
-                    <li>
-                    Lorem ipsum dolor sit amet 
+              <span>Selenium</span>  
                     </li>
        
                 

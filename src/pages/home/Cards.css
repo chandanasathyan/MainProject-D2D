@@ -9,7 +9,7 @@ margin-top: -50px;
 .card-main{
     
    width: 100%;
-   height: 385px;
+   height: 400px;
     
    box-shadow: 0px 0px 7px 0px rgb(116, 105, 105);
    transition:  0.4s all ease-in-out;
@@ -18,20 +18,34 @@ margin-top: -50px;
    transform: scale(1.03);
 }
 
+.card-img-round{
+
+display: flex;
+justify-content: center;
+}
+.uk-border-circle{
+   width: 70px;
+   height: 70px;
+
+}
 
 /* cards */
 
 .web-card-head{
+   margin-top: 10px;
    font-family: 'Poppins', sans-serif;
-   font-size: 27px;
+   font-size: 25px;
+font-weight: bold;
    color: #111;
-   margin-left: -25px;
+
+
+
 }
 
 .card-content-web{
-   margin-top: -30px;
-   margin-left: 20px;
-   font-size: 17px;
+  /* margin-top: 70px;  */
+   margin-left: 10px;
+   font-size: 15px;
    font-family: 'Poppins', sans-serif;
 }
 .card-content-web li{
@@ -39,20 +53,22 @@ color:blue
 }
 .card-content-web li span{
    color:#111
-   }
+}
 
 /*  */
    .mob-card-head{
+      margin-top: 10px;
       font-family: 'Poppins', sans-serif;
-      font-size: 27px;
+      font-size: 25px;
+   font-weight: bold;
       color: #111;
-      margin-left: -25px;
+
    }
    
    .card-content-mob{
-      margin-top: -30px;
-      margin-left: 20px;
-      font-size: 17px;
+      margin-top: 10px;
+      margin-left: 10px;
+      font-size: 15px;
       font-family: 'Poppins', sans-serif;
    }
    .card-content-mob li{
@@ -67,16 +83,18 @@ color:blue
 
 
       .graph-card-head{
+         margin-top: 10px;
          font-family: 'Poppins', sans-serif;
-         font-size: 27px;
+         font-size: 25px;
+      font-weight: bold;
          color: #111;
-         margin-left: -25px;
       }
       
       .card-content-graph{
-         margin-left: 20px;
-         font-size: 17px;
-         font-family: 'Poppins', sans-serif;
+         margin-top: 10px;
+      margin-left: 10px;
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
       }
       .card-content-graph li{
       color:blue
@@ -89,15 +107,17 @@ color:blue
 
 
 .test-card-head{
+   margin-top: 10px;
    font-family: 'Poppins', sans-serif;
-   font-size: 26px;
+   font-size: 25px;
+font-weight: bold;
    color: #111;
-   margin-left: -25px;
 }
 
 .card-content-test{
-   margin-left: 20px;
-   font-size: 17px;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 15px;
    font-family: 'Poppins', sans-serif;
 }
 .card-content-test li{
@@ -120,28 +140,38 @@ color:blue
 
    @media only screen and (max-width: 1024px){
       .web-card-head{
-         font-size: 20px;
+         font-size: 18px;
         
       }
      
+
+      .card-content-web{
+         font-size: 13px;
+      }
+
+
       .mob-card-head{
-         font-size: 20px;
+         font-size: 18px;
         
       }
      
+      .card-content-mob{
+         font-size: 13px;
+      }
+
       .graph-card-head{
-         font-size: 20px;
+         font-size: 18px;
         
       }
       .card-content-graph{
-         margin-top: -30px;
+         font-size: 13px;
       }
       .test-card-head{
-         font-size: 20px;
+         font-size: 18px;
         
       }
       .card-content-test{
-         margin-top: -30px;
+         font-size: 13px;
       }
    }
 
@@ -181,7 +211,7 @@ color:blue
 
    @media only screen and (max-width: 768px){
       .card-main{
-         height: 425px;
+         height: 450px;
       }
 
       .card-main-div{
@@ -189,37 +219,38 @@ color:blue
          margin-top: -50px;
          }
          .web-card-head{
-            font-size: 33px;
+            font-size: 31px;
            
          }
          .card-content-web{
-            margin-top: -40px;
+          
             font-size: 19px;
          }
          .mob-card-head{
-            font-size: 33px;
+            font-size: 31px;
            
          }
          .card-content-mob{
-            margin-top: -40px;
+       
             font-size: 19px;
          }
         
          .graph-card-head{
             font-size: 31px;
+           margin-left: 27px; 
           
          }
          .card-content-graph{
             font-size: 19px;
-            margin-top: -30px;
+      
          }
          .test-card-head{
             font-size: 31px;
-           
+            margin-left: 22px; 
          }
          .card-content-test{
             font-size: 19px;
-            margin-top: -30px;
+           
          }
       }       
 
