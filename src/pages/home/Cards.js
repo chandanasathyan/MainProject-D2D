@@ -1,6 +1,7 @@
 import { Box,  Button,  Card,  CardActions,  CardContent, CardMedia, Grid, Typography } from '@mui/material'
 import React from 'react'
 import "./Cards.css"
+import Programheading from './Programheading'
 
 
 const Cards = () => {
@@ -219,6 +220,10 @@ const Cards = () => {
 </Grid>
 </Grid>
 </div>  */}
+
+<Programheading/>
+
+
 
 
 <div className='card-main-div'>

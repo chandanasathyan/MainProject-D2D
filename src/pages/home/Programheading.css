@@ -1,0 +1,12 @@
+.program-heading{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    font-size: 50px;
+    text-align: center;
+    color: #111;
+}
+@media only screen and (max-width: 425px){
+.program-heading{
+    font-size: 40px;
+}
+}
