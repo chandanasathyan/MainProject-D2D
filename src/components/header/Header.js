@@ -4,6 +4,8 @@ import "./Header.css"
 import AppBar from '@mui/material/AppBar';
 import { Grid, Toolbar, Typography } from '@mui/material';
 import Drawericon from './Drawericon';
+import logo from "../../Assests/Logo-01.jpg"
+
 
 
 const Header = () => {
@@ -19,7 +21,11 @@ const Header = () => {
  <Grid className='navlogo' item md={3}  lg={3} > 
 
  <div className='logo'>
-<p>  <Link className='navlogo1' to="/">D2DPro <span>Solutions</span></Link></p>  </div>
+<p>  <Link  to="/">
+  
+<img className='navlogo1' src={logo} alt="" srcset="" />
+
+  </Link></p>  </div>
 
 
 
