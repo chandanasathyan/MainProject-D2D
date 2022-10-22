@@ -29,6 +29,8 @@ font-family: 'Poppins', sans-serif;
 }
 
 
+
+
 /*  */
 
 
@@ -108,6 +110,28 @@ text-align: start;
   margin-right: 10px; 
     }
 
+.copyright{
+  background: #f8f8f8;
+}
+    .copyright-text{
+      margin-top: 100px;
+  margin-left: 50px;
+color: #111;
+font-size: 13px;
+
+    }
+    
+    .copyright-icons{
+      margin-top: 87px;
+  margin-left: 280px;
+color: #39f;
+font-size:24px;
+letter-spacing: 20px;
+
+    }
+    
+
+
 /* responsive  */
       
     @media only screen and (max-width: 1024px){
@@ -139,6 +163,24 @@ text-align: start;
     margin-left: 123px;
     margin-right: 0px; 
   }
+  .copyright{
+    
+  }
+  .copyright-text{
+
+font-size: 12px;
+
+  }
+  
+  .copyright-icons{
+margin-left: 170px;
+font-size:20px;
+letter-spacing: 20px;
+  }
+  
+
+
+
     }
 
 
@@ -207,6 +249,18 @@ text-align: start;
     margin-left: 50px;
     margin-right: 0px; 
   }
+  
+          
+          .copyright-icons{
+        
+        margin-left: 75px;
+     
+        font-size:20px;
+        letter-spacing: 20px;
+          }
+
+
+
     }  
 
 
@@ -239,6 +293,19 @@ text-align: start;
     margin-left: 50px;
     margin-right: 0px; 
   }
+
+  .copyright-text{
+
+    font-size: 12px;
+    
+      }
+      
+      .copyright-icons{
+    margin-left: 75px;
+    font-size:18px;
+    letter-spacing: 20px;
+      }
+
     }    
 
 
@@ -273,6 +340,21 @@ text-align: start;
     margin-left: 30px;
     margin-right: 0px; 
   }
+  .copyright-text{
+    margin-top: 50px;
+    margin-left: 0px;
+    text-align: center;
+        font-size: 13px;
+        
+          }
+          
+          .copyright-icons{
+            margin-top: 10px;
+        margin-left: 10px;
+        text-align: center;
+        font-size:23px;
+        letter-spacing: 20px;
+          }
     }
 
 
@@ -307,4 +389,56 @@ text-align: start;
     margin-left: 30px;
     margin-right: 0px; 
   }
+
+  .copyright-text{
+margin-top: 50px;
+margin-left: 35px;
+    font-size: 14px;
+    
+      }
+      
+      .copyright-icons{
+        margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size:23px;
+    letter-spacing: 20px;
+      }
     }    
+
+
+    @media only screen and (max-width: 375px){
+      .copyright-text{
+        margin-top: 50px;
+        margin-left: 25px;
+            font-size: 13px;
+            
+              }
+              
+              .copyright-icons{
+                margin-top: 10px;
+            margin-left: 10px;
+            text-align: center;
+            font-size:23px;
+            letter-spacing: 20px;
+              }
+    }
+
+
+    @media only screen and (max-width: 320px){
+      .copyright-text{
+        margin-top: 50px;
+        margin-left: 0px;
+            font-size: 13px;
+            text-align: center;
+            
+              }
+              
+              .copyright-icons{
+                margin-top: 10px;
+            margin-left: 10px;
+            text-align: center;
+            font-size:23px;
+            letter-spacing: 20px;
+              }
+    }

@@ -5,6 +5,8 @@ import webdev from "../../Assests/webdevelopment.jpg"
 import mobileapp from "../../Assests/mobileapp.jpg"
 import digitalmar from "../../Assests/digitalmarketing.jpg"
 import softtest from "../../Assests/softwaretesting.jpg"
+// import slide from '../../Assests/Slide-show-01.jpg'
+
 
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 

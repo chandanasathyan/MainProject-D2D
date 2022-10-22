@@ -2,6 +2,9 @@ import React from 'react'
 import "./Footer.css"
 import {  Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { AiFillLinkedin} from "react-icons/ai";
+import {FaFacebookF} from "react-icons/fa";
+import { FaInstagram,FaWhatsapp,FaTwitter} from "react-icons/fa";
 
 
 
@@ -60,10 +63,33 @@ const Footer = () => {
 
 
 
-
 </Grid>
 
         </div>
+
+<div className='copyright'>
+<Grid container>
+<Grid item xs={12} sm={7} >
+  <div className='copyright-text'>
+  <p>Copyright © 2022 websoullabs. All Rights Reserved</p>
+  </div>
+
+</Grid>
+<Grid item xs={12} sm={5} >
+  <div  className='copyright-icons'>
+ 
+  <AiFillLinkedin/>    <FaFacebookF/>  <FaInstagram/>  <FaWhatsapp/>  <FaTwitter/>
+  </div>
+
+</Grid>
+
+
+</Grid>
+</div>
+
+
+
+
     </>
   )
 }

@@ -12,7 +12,7 @@
   display: flex;
   justify-content: end;
   position: fixed;
-  bottom: 0px;
+  bottom: 30px;
   right: 10px; 
   font-size: 50px;
 }
