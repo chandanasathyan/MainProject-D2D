@@ -1,3 +1,6 @@
+
+
+
 .contact-main-div{
     width: 100%;
     height: auto;
@@ -14,5 +17,20 @@ justify-content: center;
 align-items: center;
 margin-left: 50px;
 }
+
+.google-maps{
+   display: flex;
+   justify-content: end;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 350px;
+    
+}
+
+
+
+
+
+
 
 
