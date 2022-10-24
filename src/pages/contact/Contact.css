@@ -18,15 +18,33 @@ align-items: center;
 margin-left: 50px;
 }
 
-.google-maps{
-   display: flex;
-   justify-content: end;
-    width: 40%;
-    margin-top: 50px;
-    margin-left: 350px;
-    
+
+.contactus-contact{
+    margin-top: 30px;
+    line-height: 10px;
+align-items: center;
+text-align: center;
+color: #111;
+justify-content: center;
 }
 
+/* .address-map{
+    display: block;
+} */
+
+
+.google-maps{
+   display: flex;
+   justify-content: center;
+   
+    margin-top: 50px;
+    /* margin-left: 350px; */
+    
+}
+.gmap_iframe{
+    width: 90%;
+    height: 250px;
+}
 
 
 

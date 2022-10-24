@@ -28,14 +28,7 @@ const onsubmit = (data)=>{
   reset()
 }
 
-const sendEmail = (e) =>{
-e.preventDefault();
 
-emailjs.sendForm('service_965vgw7','template_0pxtol2',e.target,'4NBar6DxraYdKQ3a7')
-.then(res=>{
-  console.log(res)
-}).catch(err => console.log(err))
-}
 
 
 // const onerror = () =>{
@@ -60,8 +53,8 @@ emailjs.sendForm('service_965vgw7','template_0pxtol2',e.target,'4NBar6DxraYdKQ3a
         </Typography>
         <Grid>
           <div className="form-div">
-        {/* <form onSubmit={sendEmail}>  */}
-            {/* <form onSubmit={handleSubmit(onsubmit)}  > */}
+     
+          <form onSubmit={handleSubmit(onsubmit)}  >
               <Grid container spacing={1}>
                 <Grid xs={10} item>
                   <TextField
@@ -155,26 +148,35 @@ name="message"
                   </Button>
                 </Grid>
               </Grid>
-            {/* </form> */}
-           {/* </form>  */}
+      </form> 
+         
           </div>
         </Grid>
         </Grid>
+
+
+       
         <Grid md={6} >
-<div >
+<div className="address-map">
+
+<div className='contactus-contact'>
+   <p>14/291 K, Suite 75D, 1st Floor </p>
+   <p>A Square, Edathala PO, Kuzhivelippady </p>
+   <p>Ernakulam, Kerala Pin 683561 </p>
+   <p>Phone: +91-8848430565 </p>
+   <p>Email: websoul467@gmail.com</p>
+</div> 
+
 <div className="google-maps">
-<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=14 Edathala PO, Kuzhivelippady Ernakulam, Kerala &amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+<iframe class="gmap_iframe" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=14 Edathala PO, Kuzhivelippady Ernakulam, Kerala &amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
 </div>
-{/* <div className='contactus-contact'>
-   <li>14/291 K, Suite 75D, 1st Floor </li>
-   <li>A Square, Edathala PO, Kuzhivelippady </li>
-   <li>Ernakulam, Kerala Pin 683561 </li>
-   <li>Phone: +91-8848430565 </li>
-   <li>Email: websoul467@gmail.com</li>
-</div> */}
+
+
+
 
 </div>
+
       </Grid>
     
      

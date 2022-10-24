@@ -1,6 +1,8 @@
 import { Grid } from '@mui/material'
 import React from 'react'
 import "./Contactbanner.css"
+import contactban from "../../Assests/ContactUs-Banner.png"
+
 
 
 const Contactbanner = () => {
@@ -10,7 +12,7 @@ const Contactbanner = () => {
 <Grid container>
 <Grid item xs={12}>
 <div >
-<img className='contact-img' src="https://static.vecteezy.com/system/resources/thumbnails/008/013/402/small/technology-concept-for-web-banner-template-or-brochure-blue-colour-vector.jpg" alt="" srcset="" />
+<img className='contact-img' src={contactban} alt="" srcset="" />
 </div>
 </Grid>
 
