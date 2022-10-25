@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Slideshow.css"
 import {Grid} from "@mui/material";
+// import webBan from "../../Assests/webBan-1.jpg"
 import webdev from "../../Assests/webdevelopment.jpg"
 import mobileapp from "../../Assests/mobileapp.jpg"
 import digitalmar from "../../Assests/digitalmarketing.jpg"

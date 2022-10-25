@@ -1,5 +1,5 @@
 
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
@@ -17,7 +17,7 @@ import { useState } from 'react';
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import { VscClose } from "react-icons/vsc";
 import { BsFillChatSquareTextFill } from "react-icons/bs";
-
+import { AnimatePresence } from "framer-motion";
 
 function App() {
 
@@ -30,15 +30,9 @@ function App() {
   const handleClose = () => {
     setOpen(false);
   };
-// const handleChat = () =>{
-// if (onclick) {
-//   setChatopen(true)
-// } else {
-//   setChatopen(false)
-// }
-// }
-// window.addEventListener("onclick",handleChat)
 
+
+ const location = useLocation()
 
 
   return (
@@ -46,14 +40,17 @@ function App() {
 
 <Header/>
 
-  <Routes>
+<AnimatePresence>
+  <Routes key={location.pathname} location={location}>
 
          <Route path="/" element={<Home/>} />
  <Route path="/testimonials" element={<Testmonials/>} />  
  <Route path="/domains" element={<Domain/>} />  
  <Route path="/about" element={<About/>} />  
  <Route path="/contact" element={<Contact/>} />  
-      </Routes> 
+      </Routes>
+      
+      </AnimatePresence> 
    <Footer/>   
 
 

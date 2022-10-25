@@ -2,13 +2,19 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import "./Contactbanner.css"
 import contactban from "../../Assests/ContactUs-Banner.png"
+import { motion } from "framer-motion"
 
 
 
 const Contactbanner = () => {
   return (
-    <div>
-<div className='contact-banner'>
+    <>
+<motion.div   
+initial={{opacity:0}}
+animate={{opacity:1}}
+transition={{duration:2}}
+
+className='contact-banner'>
 <Grid container>
 <Grid item xs={12}>
 <div >
@@ -20,9 +26,9 @@ const Contactbanner = () => {
 
 </Grid>
 
-</div>
+</motion.div>
 
-    </div>
+    </>
   )
 }
 

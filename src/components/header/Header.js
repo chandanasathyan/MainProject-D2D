@@ -5,10 +5,53 @@ import AppBar from '@mui/material/AppBar';
 import { Grid, Toolbar, Typography } from '@mui/material';
 import Drawericon from './Drawericon';
 import logo from "../../Assests/Logo-01.jpg"
+import { motion } from "framer-motion"
+
+
+
+
+const navlogoanimation = {
+  hidden:{
+    opacity:0,
+    x:-200
+  },
+  visible:{    
+    opacity:1,
+    x:0,
+    transition:{
+      type:"spring",
+      duration:2
+    }
+  }
+}
+
+
+
+const navlinkanimation = {
+  hidden:{
+    opacity:0,
+    x:200,
+   
+  },
+  visible:{
+    x:0,
+    opacity:1,
+    transition:{
+      duration:2
+    }
+  }
+ 
+}
+
 
 
 
 const Header = () => {
+
+
+
+  
+
   return (
     <>
     
@@ -20,25 +63,33 @@ const Header = () => {
        
  <Grid className='navlogo' item md={3}  lg={3} > 
 
- <div className='logo'>
+ <motion.div className='logo'
+variants={navlogoanimation} initial="hidden" animate="visible"
+ 
+ >
 <p>  <Link  to="/">
   
 <img className='navlogo1' src={logo} alt="" srcset="" />
 
-  </Link></p>  </div>
+  </Link></p> 
+   </motion.div>
 
 
 
   </Grid> 
- <Grid style={{textDecoration:"none"}} className='navlink'  item   md={8.6} lg={8.3} >
-  <nav className='navlinkss' >
+
+ <Grid Grid style={{textDecoration:"none"}} className='navlink'  item   md={8.6} lg={8.3} >
+  <motion.nav className='navlinkss' 
+variants={navlinkanimation} initial="hidden" animate="visible"
+  
+  >
 
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/domains">DOMAINS</Link>  
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/testimonials">TESTIMONIALS</Link>  
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/about">ABOUT US</Link>  
 <Link  style={{textDecoration:"none"}}  className='navlink1' to="/contact">CONTACT US</Link>  
 
-</nav>
+</motion.nav>
 
  </Grid>  
 
