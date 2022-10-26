@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.card-main-div{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: -50px;
+}
+.card-main{
+    
+   width: 100%;
+   height: 400px;
+    
+   box-shadow: 0px 0px 7px 0px rgb(116, 105, 105);
+   transition:  0.4s all ease-in-out;
+}
+.card-main:hover{
+   transform: scale(1.03);
+}
+
+.card-img-round{
+
+display: flex;
+justify-content: center;
+}
+.uk-border-circle{
+   margin-top: 10px;
+   width: 70px;
+   height: 70px;
+
+}
+
+/* cards */
+
+.web-card-head{
+   margin-top: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+    margin-left: 26px;   
+font-weight: bold;
+   color: #111;
+
+
+
+}
+
+.card-content-web{
+  /* margin-top: 70px;  */
+   margin-left: 25px;
+   font-size: 15px;
+   font-family: 'Poppins', sans-serif;
+}
+.card-content-web li{
+color:blue
+}
+.card-content-web li span{
+   color:#111
+}
+
+/*  */
+   .mob-card-head{
+      margin-top: 10px;
+ margin-left: 5px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 24px;
+   font-weight: bold;
+      color: #111;
+
+   }
+   
+   .card-content-mob{
+      margin-top: 10px;
+      margin-left: 25px;
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+   }
+   .card-content-mob li{
+   color:blue
+   }
+   .card-content-mob li span{
+      color:#111
+      }
+
+
+   /*  */
+
+
+      .graph-card-head{
+         margin-top: 10px;
+         font-family: 'Poppins', sans-serif;
+         font-size: 25px;
+      font-weight: bold;
+         color: #111;
+         margin-left: 25px;
+      }
+      
+      .card-content-graph{
+         margin-top: 10px;
+      margin-left: 25px;
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+      }
+      .card-content-graph li{
+      color:blue
+      }
+      .card-content-graph li span{
+         color:#111
+         }
+      
+/*  */
+
+
+.test-card-head{
+   margin-top: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   margin-left: 25px;
+font-weight: bold;
+   color: #111;
+}
+
+.card-content-test{
+   margin-top: 10px;
+   margin-left: 25px;
+   font-size: 15px;
+   font-family: 'Poppins', sans-serif;
+}
+.card-content-test li{
+color:blue
+}
+.card-content-test li span{
+   color:#111
+   }
+
+
+
+ 
+
+
+
+
+
+
+  
+
+  @media only screen and (max-width: 1024px){
+      .web-card-head{
+         font-size: 23px;
+        
+      }
+     
+
+      .card-content-web{
+         font-size: 13px;
+      }
+
+
+      .mob-card-head{
+         font-size: 23px;
+        
+      }
+     
+      .card-content-mob{
+         font-size: 13px;
+      }
+
+      .graph-card-head{
+         font-size: 23px;
+        
+      }
+      .card-content-graph{
+         font-size: 13px;
+      }
+      .test-card-head{
+         font-size: 23px;
+        
+      }
+      .card-content-test{
+         font-size: 13px;
+      }
+   } 
+
+
+/*    
+   @media only screen and (max-width: 912px){
+      .card-main-div{
+      
+         margin-top: -250px;
+         }
+
+      .web-card-head{
+         font-size: 17px;
+        
+      }
+      .mob-card-head{
+         font-size: 17px;
+        
+      }
+      .graph-card-head{
+         font-size: 17px;
+        
+      }
+      .test-card-head{
+         font-size: 17px;
+        
+      }
+   } */
+
+/* 
+   @media only screen and (max-width: 820px){
+      .card-main-div{
+      
+         margin-top: -200px;
+         }
+      }  */
+
+ @media only screen and (max-width: 768px){
+      .card-main{
+         height: 450px;
+      }
+
+      .card-main-div{
+      
+         margin-top: -50px;
+         }
+         .web-card-head{
+            font-size: 28px;
+            margin-left: 31px;
+           
+         }
+         .card-content-web{
+            margin-left: 31px;
+            font-size: 15px;
+         }
+         .mob-card-head{
+            font-size: 28px;
+           
+         }
+         .card-content-mob{
+            margin-left: 31px;
+            font-size: 15px;
+         }
+        
+         .graph-card-head{
+            font-size: 28px;
+            margin-left: 31px;
+          
+         }
+         .card-content-graph{
+            font-size: 15px;
+            margin-left: 31px;
+         }
+         .test-card-head{
+            font-size: 28px;
+            margin-left: 31px;
+         }
+         .card-content-test{
+            font-size: 15px;
+            margin-left: 31px;
+         }
+      }      
+
+
+     @media only screen and (max-width: 425px){
+         .card-main{
+            height: 500px;
+         }
+   
+         .card-main-div{
+         
+            margin-top: -50px;
+            }
+            .web-card-head{
+               font-size: 29px;
+               margin-left: 40px;
+            }
+            .card-content-web{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+            .mob-card-head{
+               font-size: 29px;
+               margin-left: 10px;
+            }
+            .card-content-mob{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+           
+            .graph-card-head{
+               font-size: 29px;
+               margin-left: 40px;
+             
+               
+             
+            }
+            .card-content-graph{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+            .test-card-head{
+               font-size: 29px;
+               margin-left: 40px;
+             
+               
+            }
+            .card-content-test{
+               margin-left: 40px;
+               font-size: 17px;
+              
+            }
+         }      
+   
+
+         /* @media only screen and (max-width: 375px){
+            .card-main{
+               height: 500px;
+            }
+      
+            .card-main-div{
+            
+               margin-top: -50px;
+               }
+               .web-card-head{
+                  font-size: 27px;
+                  margin-left: 25px;
+               }
+               .card-content-web{
+                  margin-left: 40px;
+                  font-size: 17px;
+               }
+               .mob-card-head{
+                  font-size: 27px;
+                  margin-left: 25px;
+               }
+               .card-content-mob{
+                  margin-left: 40px;
+                  font-size: 17px;
+               }
+              
+               .graph-card-head{
+                  font-size: 27px;
+                  margin-left: 25px;
+                
+                  
+                
+               }
+               .card-content-graph{
+                  margin-left: 40px;
+                  font-size: 17px;
+               }
+               .test-card-head{
+                  font-size: 27px;
+                  margin-left: 25px;
+                
+                  
+               }
+               .card-content-test{
+                  margin-left: 40px;
+                  font-size: 17px;
+                 
+               }
+            }      
+       */
+            @media only screen and (max-width: 375px){
+               .card-main{
+                  height: 500px;
+               }
+         
+               .card-main-div{
+               
+                  margin-top: -50px;
+                  }
+                  .web-card-head{
+                     font-size: 27px;
+                     margin-left: 0px;
+                     text-align: center;
+                  }
+                  .card-content-web{
+                     margin-left: 40px;
+                     font-size: 17px;
+                  }
+                  .mob-card-head{
+                     font-size: 27px;
+                     margin-left: 0px;
+                     text-align: center;
+                  }
+                  .card-content-mob{
+                     margin-left: 40px;
+                     font-size: 17px;
+                  }
+                 
+                  .graph-card-head{
+                     font-size: 27px;
+                     margin-left: 0px;
+                     text-align: center;
+                   
+                     
+                   
+                  }
+                  .card-content-graph{
+                     margin-left: 40px;
+                     font-size: 17px;
+                  }
+                  .test-card-head{
+                     font-size: 27px;
+                     margin-left: 0px;
+                     text-align: center;
+                   
+                     
+                  }
+                  .card-content-test{
+                     margin-left: 40px;
+                     font-size: 17px;
+                    
+                  }
+               }  
+
+
+               
+               @media only screen and (max-width: 320px){
+                  .card-main{
+                     height: 500px;
+                  }
+            
+                  .card-main-div{
+                  
+                     margin-top: -50px;
+                     }
+                     .web-card-head{
+                        font-size: 27px;
+                        margin-left: 0px;
+                        text-align: center;
+                     }
+                     .card-content-web{
+                        margin-left: 40px;
+                        font-size: 17px;
+                     }
+                     .mob-card-head{
+                        font-size: 27px;
+                        margin-left: 0px;
+                        text-align: center;
+                     }
+                     .card-content-mob{
+                        margin-left: 40px;
+                        font-size: 17px;
+                     }
+                    
+                     .graph-card-head{
+                        font-size: 27px;
+                        margin-left: 0px;
+                        text-align: center;
+                      
+                        
+                      
+                     }
+                     .card-content-graph{
+                        margin-left: 40px;
+                        font-size: 17px;
+                     }
+                     .test-card-head{
+                        font-size: 27px;
+                        margin-left: 0px;
+                        text-align: center;
+                      
+                        
+                     }
+                     .card-content-test{
+                        margin-left: 40px;
+                        font-size: 17px;
+                       
+                     }
+                  }  
+   
+   
+
+
+   /* @media only screen and (max-width: 320px){
+       
+   
+            .web-card-head{
+               font-size: 25px;
+                  margin-left: 25px;
+              
+            }
+            .card-content-web{
+               margin-top: -40px;
+               font-size: 19px;
+            }
+            .mob-card-head{
+               font-size: 28px;
+              
+            }
+            .card-content-mob{
+               margin-top: -40px;
+               font-size: 19px;
+            }
+           
+            .graph-card-head{
+               font-size: 28px;
+             
+            }
+            .card-content-graph{
+               font-size: 19px;
+               margin-top: -30px;
+            }
+            .test-card-head{
+               font-size: 28px;
+              
+            }
+            .card-content-test{
+               font-size: 19px;
+               margin-top: -30px;
+            }
+         }      */

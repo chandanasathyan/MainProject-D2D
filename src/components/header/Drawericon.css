@@ -1,0 +1,141 @@
+ .close{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 40px;
+  font-size:30px;
+  color: #111;
+  cursor: pointer;
+}
+#drawerstyle{
+width: 100%;
+
+}
+
+.navtablink li{
+    margin-right: 200px;
+    display: block;
+    justify-content: right;
+    align-items: right;
+    list-style-type: none; 
+}
+.navtablink1{
+line-height: 60px;
+
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    list-style-type: none; 
+}
+
+
+.navtablinkcontact{
+    margin-left: 60px;
+    line-height: 150px;
+    color: #111;
+    text-decoration: none;
+
+
+}
+
+.navtabbutton button{
+
+    margin-left: 80px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+ 
+    font-size: 14px;
+    transition: all 0.7s ease-in-out;
+}
+
+.navtabbutton button:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navfabars{
+ margin-top: 5px; 
+ margin-left: 70px;
+    font-size: 40px;
+    background-color: #fff;
+    color: rgb(66, 60, 60);
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ 
+.navtablink1{
+    color:#111;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    }
+    
+    .navtablink1::before{
+        content: "";
+        background-color: #111;
+        color: #111;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: -4px;
+        transform: scaleX(0);
+        transform-origin: right;
+      transition: transform 0.5s ease-in-out;
+    
+    }
+    .navtablink1:hover::before{
+    
+      transform: scaleX(1);
+        transform-origin: left;
+    
+    }
+
+    @media only screen and (max-width: 540px) {
+        .navfabars{
+           margin-left: 40px;
+           margin-top: 0px; 
+           }
+           .navtablink li{
+            margin-right: 180px;
+           } 
+    }
+
+    @media only screen and (max-width: 425px) {
+        .navfabars{
+           margin-left: 15px;
+           }
+           .navtablink li{
+            margin-right: 100px;
+           } 
+    }
+
+    @media only screen and (max-width: 375px) {
+        .navfabars{
+           margin-left: 10px;
+           }
+    }
+    
+    @media only screen and (max-width: 325px) {
+        .navfabars{
+           margin-left: 1px;
+           }
+           .navtablink li{
+            margin-right: 50px;
+           } 
+    } 
+
+
+    
+    
