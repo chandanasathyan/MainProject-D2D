@@ -44,19 +44,12 @@ function App() {
   <Routes key={location.pathname} location={location}>
 
          <Route path="/" element={<Home/>} />
-<<<<<<< HEAD
          <Route path="/testimonials" element={<Testmonials/>} />  
          <Route path="/domains" element={<Domains/>} />  
          <Route path="/about" element={<About/>} />  
          <Route path="/contact" element={<Contact/>} />  
   </Routes> 
-      
-=======
- <Route path="/testimonials" element={<Testmonials/>} />  
- <Route path="/domains" element={<Domain/>} />  
- <Route path="/about" element={<About/>} />  
- <Route path="/contact" element={<Contact/>} />  
-      </Routes>
+
       
       </AnimatePresence> 
    <Footer/>   
@@ -97,7 +90,6 @@ function App() {
       </div>
 
 
->>>>>>> 162aea6621a734c97946cb8c1f2a59d6d45bf683
     </>
 
   );

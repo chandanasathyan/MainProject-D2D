@@ -55,11 +55,6 @@ const Drawericon = () => {
 </div>
 
 
-{/* 
- <div className='navtabbutton'>
-  <button className='navtabbutton1' >the group <i  class="fa fa-arrow-right" aria-hidden="true"></i></button>
- 
-  </div> */}
 
 
    </Drawer>
