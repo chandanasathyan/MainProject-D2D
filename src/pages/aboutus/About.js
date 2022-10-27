@@ -1,8 +1,13 @@
 import React from 'react'
+import Aboutbanner from './Aboutbanner'
+import Aboutbody from './Aboutbody'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Aboutbanner/>
+      <Aboutbody/>
+    </div>
   )
 }
 

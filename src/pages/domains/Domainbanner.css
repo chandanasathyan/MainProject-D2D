@@ -1,0 +1,12 @@
+.domain1{
+    margin-top: 65px;
+  
+}
+ .banner1{
+    width: 100%;   
+} 
+@media only screen and (max-width: 425px){
+    .banner1{
+        height: 250px;
+    }
+}

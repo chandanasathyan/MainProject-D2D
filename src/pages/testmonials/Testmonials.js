@@ -1,8 +1,13 @@
 import React from 'react'
+import Testimonibanner from './Testimonibanner'
+import Testimonicards from './Testimonicards'
 
 const Testmonials = () => {
   return (
-    <div>Testmonials</div>
+    <div>
+      <Testimonibanner/>
+      <Testimonicards/>
+    </div>
   )
 }
 
