@@ -4,9 +4,9 @@ import "./Header.css"
 import AppBar from '@mui/material/AppBar';
 import { Grid, Toolbar, Typography } from '@mui/material';
 import Drawericon from './Drawericon';
-import logo from "../../Assests/Logo-01.jpg"
-import { motion } from "framer-motion"
 
+import { motion } from "framer-motion"
+import  logodare from "../../Assests/logo-1-01.png"
 
 
 
@@ -56,7 +56,7 @@ const Header = () => {
     <>
     
     
- <AppBar  sx={{background:"#fff"}} className='navbar'  >
+ <AppBar  sx={{background:"#fff",height:100}} className='navbar'  >
         <Toolbar>
         <Grid container spacing={2}  sx={{ display: { xs: 'none', sm:"none", md:"flex", lg: 'flex', xl: 'flex' } }}>
   
@@ -69,7 +69,7 @@ variants={navlogoanimation} initial="hidden" animate="visible"
  >
 <p>  <Link  to="/">
   
-<img className='navlogo1' src={logo} alt="" srcset="" />
+<img className='navlogo1' src={logodare} alt="" srcset="" />
 
   </Link></p> 
    </motion.div>

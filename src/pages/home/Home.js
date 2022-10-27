@@ -20,7 +20,7 @@ transition={{duration:2}}>
 
 <Cards/>
 
-<Flowchart/>
+{/* <Flowchart/> */}
    </>
   )
 }
