@@ -1,6 +1,6 @@
 .slideshow-main-div{
-    margin-top:65px;
- height: 70vh;
+    margin-top:95px;
+ 
    }
    
    .uk-position-relative{
@@ -8,8 +8,9 @@
    }
 
    .slideimage1{
-      width: 100%;  
-      height: 70vh;
+      width: 100%; 
+      position: relative; 
+      /* height: 80vh; */
    background-position: center;
       background-size: cover;
       background-repeat: no-repeat; 
@@ -26,3 +27,15 @@
     text-decoration: none;
   }
   
+  /* @media only screen and (max-width: 768px) {
+  
+  .slideshow-main-div{
+  height: 150vh;
+ 
+   }
+   .slideimage1{
+   
+    height: 10vh;
+
+ }
+  } */

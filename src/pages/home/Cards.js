@@ -20,7 +20,7 @@ if(inView){
             opacity:1,
 
             transition:{
-                  type:'spring',duration:2
+                  type:'spring',duration:1
             },
             exit:{
                   y:"10vw",

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com"
 
 import {
@@ -13,32 +13,47 @@ import {
 import "./Contact.css";
 import { useForm } from "react-hook-form";
 import Contactbanner from "./Contactbanner";
+import fireDb from "./Firebase"
+
 
 const Contact = () => {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    trigger,
-    formState: { errors },
-  } = useForm();
 
-const onsubmit = (data)=>{
-  console.log(data)
-  reset()
+
+const [state,setState] = useState({
+  name:"",
+  email:"",
+  phone:"",
+  message:""
+})
+
+const {name,email,phone,message} = state
+
+const handleFormSubmit = (e) =>{
+e.preventDefault();
+if (!name|| !email|| !phone || !message ) {
+  alert("an error")
+}else{
+  fireDb.child("contacts").push(state)
+  setState({name:"",email:"",phone:"", message:""})
+  alert("form submitted")
+}
+}
+
+const handleinput = (e) =>{
+let {name,value} = e.target;
+setState({...state,[name]:value});
 }
 
 
 
 
-// const onerror = () =>{
-//   alert("please enter details")
-// }
-// console.log(errors)
+
+
+
 
   return (
     <>
-{/* contactbanner */}
+
 <Contactbanner/>
 
 
@@ -54,76 +69,71 @@ const onsubmit = (data)=>{
         <Grid>
           <div className="form-div">
      
-          <form onSubmit={handleSubmit(onsubmit)}  >
+          <form onSubmit={handleFormSubmit}  >
               <Grid container spacing={1}>
                 <Grid xs={10} item>
                   <TextField
+                  value={name}
+                 
                     placeholder="Enter your name"
                     label="Name"
                     name="name"
                     variant="outlined"
                     fullWidth
-             
-                    {...register("firstname", { required: "Name is required" })}
+             onChange={handleinput }
+                   
                   />
-                  {errors.firstname && (<div style={{color:"red"}}>{errors.firstname.message}</div>)}
+                
                 </Grid>
-                {/* <Grid xs={10} sm={5} item>
-                  <TextField
-                    placeholder="Enter last name"
-                    label="Last Name"
-                    variant="outlined"
-                    fullWidth
-               
-                    {...register("lastname", { required: "Name is required" })}
-                  />
-                      {errors.lastname && (<div style={{color:"red"}}>{errors.lastname.message}</div>)}
-                </Grid> */}
+              
                 <Grid item xs={10}>
-                  <TextField
-                    // type="email"
+
+                <TextField
+            value={email}
+            onChange={handleinput }
+                 label="email"
+                 name="email"
+                
+                 variant="outlined"
+                 fullWidth
+                
+                />
+
+
+                  {/* <TextField
+                   
+
                     placeholder="Enter email"
-                    label="Email"
+                    label="email"
+                    name="emeil"
                     variant="outlined"
-                    name="user_email"
                     fullWidth
           
-                    {...register("email", { required: "email is required",
-                  pattern:{
-                    value:/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/i,
-                    message:"Invalid email "
-                  }
-                  })}
-                  onKeyUp={() => {
-                    trigger("email");
-                  }}
-                  />
-                      {errors.email && (<div style={{color:"red"}}>{errors.email.message}</div>)}
+                
+                
+               
+                  /> */}
+                      
                 </Grid>
                 <Grid item xs={10}>
                   <TextField 
-               
+               value={phone}
+               onChange={handleinput }
                     placeholder="Enter phone  number"
                     label="Phone"
                     name="phone"
                     variant="outlined"
                     fullWidth
                 
-                    {...register("phone", { required: "phone is required",
-                  pattern:{
-                    value:/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/,
-                    message:" invalid phone number"
-                  }
-                  
-                  })}
-                  onKeyUp={() => {
-                    trigger("phone");
-                  }}
+                 
+                
                   />
-                      {errors.phone && (<div style={{color:"red"}}>{errors.phone.message}</div>)}
+                    
                 </Grid>
                 <Grid item xs={10}>
                   <TextField
+                  value={message}
+                  onChange={handleinput }
                     label="Message"
 name="message"
 
@@ -133,9 +143,9 @@ name="message"
                     variant="outlined"
                     fullWidth
                
-                    {...register("message", { required: "message is required" })}
+                  
                   />
-                      {errors.message && (<div style={{color:"red"}}>{errors.message.message}</div>)}
+                     
                 </Grid>
                 <Grid item xs={10}>
                   <Button
