@@ -1,8 +1,8 @@
 .slideshow-main-div{
     margin-top:95px;
  
-    margin-top:90px;
- height: 70vh;
+ 
+
    }
    
    .uk-position-relative{
@@ -10,12 +10,10 @@
    }
 
    .slideimage1{
-      width: 100%; 
-      position: relative; 
-      /* height: 80vh; */
-   background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; 
+ width: 100%;
+
+    
+
   }
   
   
@@ -28,16 +26,11 @@
   .uk-position-center-right, .uk-position-center-left:hover{
     text-decoration: none;
   }
+   /* @media only screen and (max-width: 768px) {
   
-  /* @media only screen and (max-width: 768px) {
-  
-  .slideshow-main-div{
-  height: 150vh;
- 
-   }
-   .slideimage1{
+.slideimage1{
    
-    height: 10vh;
+    height: 800px;
 
  }
-  } */
+  }   */
