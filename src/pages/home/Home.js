@@ -1,6 +1,6 @@
 import React from 'react'
 import Cards from './Cards';
-import Flowchart from './Flowchart';
+
 import "./Home.css"
 import { motion } from "framer-motion"
 import Slideshow from './Slideshow';
@@ -20,7 +20,7 @@ transition={{duration:2}}>
 
 <Cards/>
 
-{/* <Flowchart/> */}
+
    </>
   )
 }
