@@ -4,6 +4,10 @@ import "./Cards.css"
 import Programheading from './Programheading'
 import { motion,useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
+import webIcon from "../../Assests/Web (6).png"
+import mobIcon from "../../Assests/Mobile (1).png"
+import qaIcon from "../../Assests/QA.png"
+import gdIcon from "../../Assests/GD (1).png"
 
 const Cards = () => {
 
@@ -62,7 +66,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
+              <img  class="uk-border-circle" src={webIcon} alt="Avatar"/> 
              
             </div>
       <CardContent>
@@ -118,7 +122,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
+              <img  class="uk-border-circle"  src={mobIcon} alt="Avatar"/> 
              
             </div>
       <CardContent>
@@ -168,7 +172,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
+              <img  class="uk-border-circle" src={gdIcon}  alt="Avatar"/> 
              
             </div>
       <CardContent>
@@ -216,7 +220,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/> 
+              <img  class="uk-border-circle" src={qaIcon} alt="Avatar"/> 
              
             </div>
       <CardContent>

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com"
+import React, { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 
 import {
   TextField,
@@ -13,39 +13,29 @@ import {
 import "./Contact.css";
 import { useForm } from "react-hook-form";
 import Contactbanner from "./Contactbanner";
-import fireDb from "./Firebase"
+// import fireDb from "./Firebase"
 
 
 const Contact = () => {
 
 
-const [state,setState] = useState({
-  name:"",
-  email:"",
-  phone:"",
-  message:""
-})
 
-const {name,email,phone,message} = state
+const form = useRef();
+const sendEmail = (e) => {
+  e.preventDefault() ;
 
-const handleFormSubmit = (e) =>{
-e.preventDefault();
-if (!name|| !email|| !phone || !message ) {
-  alert("an error")
-}else{
-  fireDb.child("contacts").push(state)
-  setState({name:"",email:"",phone:"", message:""})
-  alert("form submitted")
-}
-}
+  emailjs.sendForm('service_gu81ilo', 'template_qovbtep', form.current, '4NBar6DxraYdKQ3a7')
+    .then((result) => {
 
-const handleinput = (e) =>{
-let {name,value} = e.target;
-setState({...state,[name]:value});
-}
+        console.log(result.text);
+        console.log("message sent")
+    }, (error) => {
+    
+        console.log(error.text);
 
-
-
+    });
+    e.target.reset();
+};
 
 
 
@@ -59,9 +49,10 @@ setState({...state,[name]:value});
 
 
 
+
     <div className="contact-main-div">
     <Grid container>
-      <Grid md={6}>
+      <Grid md={12}>
       
         <Typography gutterBottom variant="h3" align="center">
           Contact Us
@@ -69,30 +60,29 @@ setState({...state,[name]:value});
         <Grid>
           <div className="form-div">
      
-          <form onSubmit={handleFormSubmit}  >
+          <form ref={form} onSubmit={sendEmail} >
               <Grid container spacing={1}>
-                <Grid xs={10} item>
+                <Grid xs={7} item>
                   <TextField
-                  value={name}
+              
                  
                     placeholder="Enter your name"
                     label="Name"
-                    name="name"
+                    name="user_name" 
                     variant="outlined"
                     fullWidth
-             onChange={handleinput }
+       
                    
                   />
                 
                 </Grid>
               
-                <Grid item xs={10}>
+                <Grid item xs={7}>
 
                 <TextField
-            value={email}
-            onChange={handleinput }
+           
                  label="email"
-                 name="email"
+                 name="user_email"
                 
                  variant="outlined"
                  fullWidth
@@ -100,25 +90,12 @@ setState({...state,[name]:value});
                 />
 
 
-                  {/* <TextField
-                   
-
-                    placeholder="Enter email"
-                    label="email"
-                    name="emeil"
-                    variant="outlined"
-                    fullWidth
-          
-                
-                
-               
-                  /> */}
+                 
                       
                 </Grid>
-                <Grid item xs={10}>
+                <Grid item xs={7}>
                   <TextField 
-               value={phone}
-               onChange={handleinput }
+          
                     placeholder="Enter phone  number"
                     label="Phone"
                     name="phone"
@@ -130,12 +107,11 @@ setState({...state,[name]:value});
                   />
                     
                 </Grid>
-                <Grid item xs={10}>
+                <Grid item xs={7}>
                   <TextField
-                  value={message}
-                  onChange={handleinput }
+                
                     label="Message"
-name="message"
+                    name="message"
 
                     multiline
                     rows={4}
@@ -147,12 +123,14 @@ name="message"
                   />
                      
                 </Grid>
-                <Grid item xs={10}>
+                <Grid item xs={7}>
                   <Button
+                  sx={{height:"50px"}}
                     type="submit"
                     variant="contained"
                     color="primary"
                     fullWidth
+                    
                   >
                     Submit
                   </Button>
@@ -165,29 +143,7 @@ name="message"
         </Grid>
 
 
-       
-        <Grid md={6} >
-<div className="address-map">
-
-<div className='contactus-contact'>
-   <p>14/291 K, Suite 75D, 1st Floor </p>
-   <p>A Square, Edathala PO, Kuzhivelippady </p>
-   <p>Ernakulam, Kerala Pin 683561 </p>
-   <p>Phone: +91-8848430565 </p>
-   <p>Email: websoul467@gmail.com</p>
-</div> 
-
-<div className="google-maps">
-<iframe class="gmap_iframe" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=14 Edathala PO, Kuzhivelippady Ernakulam, Kerala &amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-
-</div>
-
-
-
-
-</div>
-
-      </Grid>
+ 
     
      
       </Grid>
