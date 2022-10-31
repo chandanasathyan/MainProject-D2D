@@ -69,7 +69,7 @@ function App() {
 
 
 
-<div className="fixed-chat">
+{/* <div style={{display:"none"}} className="fixed-chat">
   <div >
 <Button  onClick={handleClickOpen} style={{fontSize:"50px"}} >
 <BsFillChatSquareTextFill/>
@@ -90,7 +90,7 @@ function App() {
        
       </Dialog>
     
-      </div>
+      </div> */}
 
 
     </>

@@ -1,0 +1,67 @@
+.cardhead{
+    margin-top: 160px;
+    justify-content: center;
+}
+.cardtitle{
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .cardhead{
+        margin-top: 140px;
+    }
+    .cardtitle{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 820px){
+    .cardhead{
+        margin-top: -200px;
+    }
+    .cardtitle{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .cardhead{
+        margin-top: -200px;
+    }
+    .cardtitle{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 540px){
+    .cardhead{
+        margin-top: 20px;
+    }
+    .cardtitle{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .cardhead{
+        margin-top: 20px;
+    }
+    .cardtitle{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .cardhead{
+        margin-top: 30px;
+    }
+    .cardtitle{
+        font-size: 25px;
+    }
+}
