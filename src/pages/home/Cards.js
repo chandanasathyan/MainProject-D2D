@@ -17,7 +17,7 @@ const Cards = () => {
 
 
 useEffect(()=>{
-console.log("useEffect = ", inView)  
+
 if(inView){
       animation.start({
             y:0,
@@ -77,6 +77,7 @@ animate={animation}
           </p>
           </div>
           <div className='card-content-web'>
+            <ul>
             <li>
               <span>HTML,CSS, Javascript </span>  
                     </li>
@@ -108,7 +109,7 @@ animate={animation}
               <span>MongoDB </span>  
                     </li> 
                     
-                
+                    </ul>
                     </div>
       </CardContent>
      
@@ -134,6 +135,7 @@ animate={animation}
             </div>
            
             <div className='card-content-mob'>
+                  <ul>
                <li>
               <span>HTML </span>  
                     </li>
@@ -156,7 +158,7 @@ animate={animation}
               <span> Ionic </span>  
                     </li>    
       
-               
+                    </ul>
               
            </div>
       </CardContent>
@@ -185,6 +187,7 @@ animate={animation}
             </div>
 
             <div className='card-content-graph'>
+                  <ul>
                <li>
               <span>Figma</span>  
                     </li>
@@ -203,7 +206,7 @@ animate={animation}
                     <li>
               <span>UI/UX Prototyping</span>  
                     </li>
-               
+                    </ul>
               
            </div>
       </CardContent>
@@ -230,6 +233,7 @@ animate={animation}
           </p>
             </div>
             <div className='card-content-test' >
+                  <ul>
                 <li>
               <span>Automation Testing</span>  
                     </li>
@@ -240,7 +244,7 @@ animate={animation}
               <span>Selenium</span>  
                     </li>
        
-                
+                    </ul>
                 
             </div>
       </CardContent>

@@ -95,28 +95,44 @@
         /* tab */
         
         .navtablogo1{
-            color:#111;
-            text-decoration: none;
-            font-weight: 800;
-            font-size: 15px;
+            height: 55px;
 
         }
         
         .navtablogodiv{
             margin-top: 18px;
-            margin-left: 20px;
+            margin-left: 10px;
        
         }
         .icontab{
         align-items: end;
         text-align: end;
-        margin-top: 13px;
+      margin-top: 25px;
            
         }      
-        
+
+
+
 .tabnav{
     display: flex;
     justify-content: space-around;
  
 }
+
+
+/* responsive */
        
+@media only screen and (max-width: 280px){
+    .navtablogodiv{
+      
+        margin-left: -8px;
+   
+    }
+    .icontab{
+   margin-left: 10px;
+      margin-top: 25px;
+           
+        }      
+
+  
+}

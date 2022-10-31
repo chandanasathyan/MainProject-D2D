@@ -10,9 +10,7 @@ import About from './pages/aboutus/About'
 import Footer from './components/footer/Footer';
 import Chatbot from 'react-chatbot-kit'
 import 'react-chatbot-kit/build/main.css'
-import ActionProvider from './ActionProvider';
-import MessageParser from './MessageParser';
-import Config from './Config';
+
 import { useState } from 'react';
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import { VscClose } from "react-icons/vsc";
@@ -66,28 +64,7 @@ function App() {
 
 
 
-<div className="fixed-chat">
-  <div >
-<Button  onClick={handleClickOpen} style={{fontSize:"50px"}} >
-<BsFillChatSquareTextFill/>
-      </Button>
-      </div>  
-      
-      <Dialog
-        open={open}
-        onClose={handleClose} id="chat-dialog">
- 
-         <Typography id="close-icon" onClick={handleClose}><VscClose/></Typography>
-         
-     
-          <DialogContentText >
-          <Chatbot config={Config} actionProvider={ActionProvider} 	    messageParser={MessageParser} />
-          </DialogContentText>
-       
-       
-      </Dialog>
-    
-      </div>
+
 
 
     </>

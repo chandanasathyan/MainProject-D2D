@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+
+
+
+
+
 .card-main-div{
 margin-left: 20px;
 margin-right: 20px;
@@ -9,7 +14,7 @@ margin-top: -50px;
 .card-main{
     
    width: 100%;
-   height: 400px;
+   height: 410px;
     
    box-shadow: 0px 0px 7px 0px rgb(116, 105, 105);
    transition:  0.4s all ease-in-out;
@@ -51,7 +56,7 @@ font-weight: bold;
    font-family: 'Poppins', sans-serif;
 }
 .card-content-web li{
-color:blue
+color:#9933CC
 }
 .card-content-web li span{
    color:#111
@@ -75,7 +80,7 @@ color:blue
       font-family: 'Poppins', sans-serif;
    }
    .card-content-mob li{
-   color:blue
+   color:#66CC33
    }
    .card-content-mob li span{
       color:#111
@@ -101,7 +106,7 @@ color:blue
       font-family: 'Poppins', sans-serif;
       }
       .card-content-graph li{
-      color:blue
+      color:#D23620
       }
       .card-content-graph li span{
          color:#111
@@ -126,7 +131,7 @@ font-weight: bold;
    font-family: 'Poppins', sans-serif;
 }
 .card-content-test li{
-color:blue
+color:#02C7BD
 }
 .card-content-test li span{
    color:#111
@@ -134,7 +139,40 @@ color:blue
 
 
 
- 
+   /* responsive */
+
+   @media only screen and (max-width: 1280px){
+      .card-main{
+         height: 410px;
+      }
+         .web-card-head{
+            font-size: 22px;
+           
+         }
+        
+   
+      
+   
+         .mob-card-head{
+            font-size: 22px;
+          
+         }
+        
+       
+         .graph-card-head{
+            font-size: 22px;
+            
+           
+         }
+        
+         .test-card-head{
+            font-size: 22px;
+            
+         }
+         
+      } 
+   
+   
 
 
 
@@ -144,9 +182,13 @@ color:blue
   
 
   @media only screen and (max-width: 1024px){
+   .card-main{
+      height: 410px;
+   }
       .web-card-head{
          font-size: 23px;
-        
+         margin-left: 0px;
+         text-align: center;
       }
      
 
@@ -157,7 +199,8 @@ color:blue
 
       .mob-card-head{
          font-size: 23px;
-        
+         margin-left: 0px;
+         text-align: center;
       }
      
       .card-content-mob{
@@ -166,6 +209,8 @@ color:blue
 
       .graph-card-head{
          font-size: 23px;
+         margin-left: 0px;
+         text-align: center;
         
       }
       .card-content-graph{
@@ -173,12 +218,61 @@ color:blue
       }
       .test-card-head{
          font-size: 23px;
-        
+         margin-left: 0px;
+         text-align: center;
       }
       .card-content-test{
          font-size: 13px;
       }
    } 
+
+
+
+   
+  @media only screen and (max-width: 912px){
+   .card-main{
+      height: 430px;
+   }
+   .web-card-head{
+      font-size: 23px;
+     margin-left: 0px;
+     text-align: center;
+   }
+  
+
+   .card-content-web{
+      font-size: 13px;
+  
+   }
+
+
+   .mob-card-head{
+      font-size: 23px;
+      margin-left: 0px;
+      text-align: center;
+   }
+  
+   .card-content-mob{
+      font-size: 13px;
+   }
+
+   .graph-card-head{
+      font-size: 23px;
+      margin-left: 0px;
+      text-align: center;
+   }
+   .card-content-graph{
+      font-size: 13px;
+   }
+   .test-card-head{
+      font-size: 23px;
+      margin-left: 0px;
+      text-align: center;
+   }
+   .card-content-test{
+      font-size: 13px;
+   }
+} 
 
 
 /*    
@@ -214,6 +308,70 @@ color:blue
          }
       }  */
 
+
+
+
+      @media only screen and (max-width: 820px){
+         .card-main{
+            height: 450px;
+         }
+   
+         .card-main-div{
+         
+            margin-top: -50px;
+            }
+            .web-card-head{
+               font-size: 30px;
+              
+               margin-left: 35px;
+              
+            }
+            .card-content-web{
+               margin-left: 45px;
+               font-size: 15px;
+            }
+            .mob-card-head{
+               font-size: 30px;
+              
+              
+            }
+            .card-content-mob{
+               margin-left: 45px;
+               font-size: 15px;
+            }
+           
+            .graph-card-head{
+               font-size: 30px;
+              
+               margin-left: 35px;
+             
+            }
+            .card-content-graph{
+               font-size: 15px;
+               margin-left: 45px;
+            }
+            .test-card-head{
+               font-size: 30px;
+              
+               margin-left: 35px;
+            }
+            .card-content-test{
+               font-size: 15px;
+               margin-left: 45px;
+            }
+         }      
+   
+   
+
+
+
+
+
+
+
+
+
+
  @media only screen and (max-width: 768px){
       .card-main{
          height: 450px;
@@ -224,41 +382,107 @@ color:blue
          margin-top: -50px;
          }
          .web-card-head{
-            font-size: 28px;
-            margin-left: 31px;
+            font-size: 27px;
+            margin-left: 0px;
            
          }
          .card-content-web{
-            margin-left: 31px;
+            margin-left: 45px;
             font-size: 15px;
          }
          .mob-card-head{
-            font-size: 28px;
-           
+            font-size: 27px;
+            margin-left: 0px;
          }
          .card-content-mob{
-            margin-left: 31px;
+            margin-left: 45px;
             font-size: 15px;
          }
         
          .graph-card-head{
-            font-size: 28px;
-            margin-left: 31px;
+            font-size: 27px;
+            margin-left: 0px;
           
          }
          .card-content-graph{
             font-size: 15px;
-            margin-left: 31px;
+            margin-left: 45px; 
          }
          .test-card-head{
-            font-size: 28px;
-            margin-left: 31px;
+            font-size: 27px;
+            margin-left: 0px;
          }
          .card-content-test{
             font-size: 15px;
-            margin-left: 31px;
+            margin-left: 45px;
          }
       }      
+
+
+
+      @media only screen and (max-width: 540px){
+         .card-main{
+            height: 500px;
+         }
+   
+         .card-main-div{
+         
+            margin-top: -50px;
+            }
+            .web-card-head{
+               font-size: 37px;
+               margin-left: 0px;
+               text-align: center;
+                        }
+            .card-content-web{
+               margin-left: 65px;
+               font-size: 17px;
+            }
+            .mob-card-head{
+               font-size: 37px;
+               margin-left: 0px;
+               text-align: center;
+            }
+            .card-content-mob{
+               margin-left: 65px;
+               font-size: 17px;
+            }
+           
+            .graph-card-head{
+               font-size: 37px;
+               margin-left: 0px;
+               text-align: center;
+               
+             
+            }
+            .card-content-graph{
+               margin-left: 65px;
+               font-size: 17px;
+            }
+            .test-card-head{
+               font-size: 37px;
+               margin-left: 0px;
+               text-align: center;
+               
+            }
+            .card-content-test{
+               margin-left: 65px;
+               font-size: 17px;
+              
+            }
+         }      
+   
+
+
+
+
+
+
+
+
+
+
+
 
 
      @media only screen and (max-width: 425px){
@@ -272,7 +496,8 @@ color:blue
             }
             .web-card-head{
                font-size: 29px;
-               margin-left: 40px;
+               margin-left: 0px;
+               text-align: center;
             }
             .card-content-web{
                margin-left: 40px;
@@ -280,7 +505,8 @@ color:blue
             }
             .mob-card-head{
                font-size: 29px;
-               margin-left: 10px;
+               margin-left: 0px;
+               text-align: center;
             }
             .card-content-mob{
                margin-left: 40px;
@@ -289,7 +515,8 @@ color:blue
            
             .graph-card-head{
                font-size: 29px;
-               margin-left: 40px;
+               margin-left: 0px;
+               text-align: center;
              
                
              
@@ -300,7 +527,8 @@ color:blue
             }
             .test-card-head{
                font-size: 29px;
-               margin-left: 40px;
+               margin-left: 0px;
+               text-align: center;
              
                
             }
@@ -312,56 +540,109 @@ color:blue
          }      
    
 
-         /* @media only screen and (max-width: 375px){
-            .card-main{
-               height: 500px;
+
+         @media only screen and (max-width: 414px){
+            .mob-card-head{
+               font-size: 29px;
+               margin-left: 5px;
             }
-      
-            .card-main-div{
-            
-               margin-top: -50px;
-               }
-               .web-card-head{
-                  font-size: 27px;
-                  margin-left: 25px;
-               }
-               .card-content-web{
-                  margin-left: 40px;
-                  font-size: 17px;
-               }
-               .mob-card-head{
-                  font-size: 27px;
-                  margin-left: 25px;
-               }
-               .card-content-mob{
-                  margin-left: 40px;
-                  font-size: 17px;
-               }
+           
+         }
+
+
+          @media only screen and (max-width: 390px){
+            .web-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+            }
+            .card-content-web{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+            .mob-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+            }
+            .card-content-mob{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+           
+            .graph-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+             
+               
+             
+            }
+            .card-content-graph{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+            .test-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+             
+               
+            }
+            .card-content-test{
+               margin-left: 40px;
+               font-size: 17px;
               
-               .graph-card-head{
-                  font-size: 27px;
-                  margin-left: 25px;
-                
-                  
-                
-               }
-               .card-content-graph{
-                  margin-left: 40px;
-                  font-size: 17px;
-               }
-               .test-card-head{
-                  font-size: 27px;
-                  margin-left: 25px;
-                
-                  
-               }
-               .card-content-test{
-                  margin-left: 40px;
-                  font-size: 17px;
-                 
-               }
-            }      
-       */
+            }
+         } 
+
+         @media only screen and (max-width: 393px){
+            .web-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+            }
+            .card-content-web{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+            .mob-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+            }
+            .card-content-mob{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+           
+            .graph-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+             
+               
+             
+            }
+            .card-content-graph{
+               margin-left: 40px;
+               font-size: 17px;
+            }
+            .test-card-head{
+               font-size: 27px;
+               margin-left: 0px;
+               text-align: center;
+             
+               
+            }
+            .card-content-test{
+               margin-left: 40px;
+               font-size: 17px;
+              
+            }
+         } 
+
+
             @media only screen and (max-width: 375px){
                .card-main{
                   height: 500px;
@@ -460,7 +741,8 @@ color:blue
                      }
                      .test-card-head{
                         font-size: 27px;
-                        margin-left: 0px;
+                     margin-left: 12px;
+                        margin-right: 15px;
                         text-align: center;
                       
                         
