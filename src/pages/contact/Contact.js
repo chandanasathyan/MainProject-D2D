@@ -127,72 +127,7 @@ const Contact = () => {
         </Grid>
       </div>
 
-      <div className="contact-main-div" style={{ display: "none" }}>
-        <Grid container>
-          <Grid md={12}>
-            <Typography gutterBottom variant="h3" align="center">
-              Contact Us
-            </Typography>
-            <Grid>
-              <div className="form-div">
-                <form ref={form} onSubmit={sendEmail}>
-                  <Grid container spacing={1}>
-                    <Grid xs={7} item>
-                      <TextField
-                        placeholder="Enter your name"
-                        label="Name"
-                        name="user_name"
-                        variant="outlined"
-                        fullWidth
-                      />
-                    </Grid>
-
-                    <Grid item xs={7}>
-                      <TextField
-                        label="email"
-                        name="user_email"
-                        variant="outlined"
-                        fullWidth
-                      />
-                    </Grid>
-                    <Grid item xs={7}>
-                      <TextField
-                        placeholder="Enter phone  number"
-                        label="Phone"
-                        name="phone"
-                        variant="outlined"
-                        fullWidth
-                      />
-                    </Grid>
-                    <Grid item xs={7}>
-                      <TextField
-                        label="Message"
-                        name="message"
-                        multiline
-                        rows={4}
-                        placeholder="Type your message here"
-                        variant="outlined"
-                        fullWidth
-                      />
-                    </Grid>
-                    <Grid item xs={7}>
-                      <Button
-                        sx={{ height: "50px" }}
-                        type="submit"
-                        variant="contained"
-                        color="primary"
-                        fullWidth
-                      >
-                        Submit
-                      </Button>
-                    </Grid>
-                  </Grid>
-                </form>
-              </div>
-            </Grid>
-          </Grid>
-        </Grid>
-      </div>
+   
     </>
   );
 };
