@@ -102,7 +102,11 @@ variants={navlinkanimation} initial="hidden" animate="visible"
  <Grid className='navtablogo'  item xs={10} sm={10}>
 
   <div  className='navtablogodiv'>
- <p>  <Link className='navtablogo1'  to="/">D2DPro <span>Solutions</span></Link></p> 
+ <p>  <Link >
+ 
+ <img className='navtablogo1' src={logodare} alt="" srcset="" />
+ </Link>
+ </p> 
  </div> 
  </Grid>
   <Grid  item xs={1} sm={1}>

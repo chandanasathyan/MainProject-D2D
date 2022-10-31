@@ -1,7 +1,9 @@
 import { Grid } from '@mui/material'
 import React from 'react'
 import "./Contactbanner.css"
-import contactban from "../../Assests/ContactUs-Banner.png"
+import contactbanweb from "../../Assests/ContactUs-Banner.png"
+import contactbantab from "../../Assests/Contact-Tab-View (2).png"
+import contactbanmob from "../../Assests/Contact-Mob-view.png"
 import { motion } from "framer-motion"
 
 
@@ -15,16 +17,46 @@ animate={{opacity:1}}
 transition={{duration:2}}
 
 className='contact-banner'>
-<Grid container>
+<Grid container  sx={{ display: { xs: 'none', sm:"none", md:"flex", lg: 'flex', xl: 'flex' } }}>
 <Grid item xs={12}>
 <div >
-<img className='contact-img' src={contactban} alt="" srcset="" />
+<img className='contact-img' src={contactbanweb} alt="" srcset="" />
 </div>
 </Grid>
 
 
 
 </Grid>
+
+{/* tab */}
+
+
+<Grid container  sx={{ display: { xs: 'none', sm:"flex", md:"none", lg: 'none', xl: 'none' } }}>
+<Grid item xs={12}>
+<div >
+<img className='contact-img' src={contactbantab} alt="" srcset="" />
+</div>
+</Grid>
+
+
+
+</Grid>
+
+
+{/* mobile */}
+
+<Grid container  sx={{ display: { xs: 'flex', sm:"none", md:"none", lg: 'none', xl: 'none' } }}>
+<Grid item xs={12}>
+<div >
+<img className='contact-img' src={contactbanmob} alt="" srcset="" />
+</div>
+</Grid>
+
+
+
+</Grid>
+
+
 
 </motion.div>
 
