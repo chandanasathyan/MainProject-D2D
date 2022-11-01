@@ -1,17 +1,17 @@
-import { Box,  Button,  Card,  CardActions,  CardContent, CardMedia, duration, Grid, Typography } from '@mui/material'
+import {   CardContent,  Grid } from '@mui/material'
 import React, { useEffect } from 'react'
 import "./Cards.css"
-import Programheading from './Programheading'
+import Programheading from '../../pages/home/Programheading'
 import { motion,useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
-import webIcon from "../../Assests/Web (6).png"
-import mobIcon from "../../Assests/Mobile (1).png"
-import qaIcon from "../../Assests/QA.png"
-import gdIcon from "../../Assests/GD (1).png"
+import webIcon from "../../Assests/cardsicon/Web (6).png"
+import mobIcon from "../../Assests/cardsicon/Mobile (1).png"
+import qaIcon from "../../Assests/cardsicon/QA.png"
+import gdIcon from "../../Assests/cardsicon/GD (1).png"
 
 const Cards = () => {
 
- const {ref,inView} = useInView();
+ const  {ref,inView} = useInView();
 
  const animation = useAnimation();
 
@@ -42,7 +42,7 @@ if(!inView){
 }
 
 
- },[inView])
+ } )
 
   return (
     <>
@@ -66,7 +66,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle" src={webIcon} alt="Avatar"/> 
+              <img  class="uk-border-circle" src={webIcon} alt="web development"/> 
              
             </div>
       <CardContent>
@@ -123,7 +123,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle"  src={mobIcon} alt="Avatar"/> 
+              <img  class="uk-border-circle"  src={mobIcon} alt="mob app development"/> 
              
             </div>
       <CardContent>
@@ -174,7 +174,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle" src={gdIcon}  alt="Avatar"/> 
+              <img  class="uk-border-circle" src={gdIcon}  alt="graphic designing"/> 
              
             </div>
       <CardContent>
@@ -223,7 +223,7 @@ animate={animation}
 <div className="card-main">
 <card sx={{ maxWidth: 345 }}>
 <div className='card-img-round' >
-              <img  class="uk-border-circle" src={qaIcon} alt="Avatar"/> 
+              <img  class="uk-border-circle" src={qaIcon} alt="software testing"/> 
              
             </div>
       <CardContent>

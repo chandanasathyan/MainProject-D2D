@@ -1,9 +1,9 @@
 import { Grid } from '@mui/material'
 import React from 'react'
 import "./Contactbanner.css"
-import contactbanweb from "../../Assests/ContactUs-Banner.png"
-import contactbantab from "../../Assests/Contact-Tab-View (2).png"
-import contactbanmob from "../../Assests/Contact-Mob-view.png"
+import contactbanweb from "../../Assests/contact/ContactUs-Banner.png"
+import contactbantab from "../../Assests/contact/Contact-Tab-View (2).png"
+import contactbanmob from "../../Assests/contact/Contact-Mob-view.png"
 import { motion } from "framer-motion"
 
 
@@ -20,7 +20,7 @@ className='contact-banner'>
 <Grid container  sx={{ display: { xs: 'none', sm:"none", md:"flex", lg: 'flex', xl: 'flex' } }}>
 <Grid item xs={12}>
 <div >
-<img className='contact-img' src={contactbanweb} alt="" srcset="" />
+<img className='contact-img' src={contactbanweb} alt="contactus" srcset="" />
 </div>
 </Grid>
 

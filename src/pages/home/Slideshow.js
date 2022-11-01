@@ -2,18 +2,19 @@ import React from 'react'
 import "./Slideshow.css"
 import {Grid} from "@mui/material";
 
-import banweb from "../../Assests/Slide-show-Web-view.png"
-import bantab from "../../Assests/Tab-View (1).png"
-import banmob from "../../Assests/Mob-view (3).png"
-import banwebmob from "../../Assests/Mobile-web-view.png"
-import bantabmob from "../../Assests/Mobile-tab-View.png"
-import banmobmob from"../../Assests/Mobile-Mob-view (4).png"
-import dmweb from "../../Assests/DM-Web-view.png"
-import dmtab from "../../Assests/DM-Tab-View.png"
-import dmmob from"../../Assests/DM-Mob-view.png"
-import qaweb from "../../Assests/QA-Web-view.png"
-import qatab from "../../Assests/QA-Tab-View.png"
-import qamob from"../../Assests/QA-Mob-view.png"
+import banweb from "../../Assests/slideshow/Slide-show-Web-view.png"
+import bantab from "../../Assests/slideshow/Tab-View (1).png"
+import banmob from "../../Assests/slideshow/Mob-view (3).png"
+
+import banwebmob from "../../Assests/slideshow/Mobile-web-view.png"
+import bantabmob from "../../Assests/slideshow/Mobile-tab-View.png"
+import banmobmob from"../../Assests/slideshow/Mobile-Mob-view (4).png"
+import dmweb from "../../Assests/slideshow/DM-Web-view.png"
+import dmtab from "../../Assests/slideshow/DM-Tab-View.png"
+import dmmob from"../../Assests/slideshow/DM-Mob-view.png"
+import qaweb from "../../Assests/slideshow/QA-Web-view.png"
+import qatab from "../../Assests/slideshow/QA-Tab-View.png"
+import qamob from"../../Assests/slideshow/QA-Mob-view.png"
 
 
 import Slider from "react-slick";
@@ -83,22 +84,22 @@ const Slideshow = () => {
         <Slider {...settings} >
           <div>
       
-          <img className=' slideimage1' src={banweb} alt=""/>
+          <img className=' slideimage1' src={banweb} alt="web development"/>
          
           </div>
           <div>
       
-      <img className=' slideimage1' src={banwebmob} alt=""/>
+      <img className=' slideimage1' src={banwebmob} alt="mob app development"/>
      
       </div>
       <div>
       
-          <img className=' slideimage1' src={dmweb} alt=""/>
+          <img className=' slideimage1' src={dmweb} alt="digital marketing"/>
          
           </div>
           <div>
       
-      <img className=' slideimage1' src={qaweb} alt=""/>
+      <img className=' slideimage1' src={qaweb} alt="software testing"/>
      
       </div>
        
@@ -115,22 +116,22 @@ const Slideshow = () => {
         <Slider {...settingstab}>
           <div>
       
-          <img className=' slideimage1'  src={bantab} alt=""/>
+          <img className=' slideimage1'  src={bantab} alt="web development"/>
          
           </div>
           <div>
       
-      <img className=' slideimage1' src={bantabmob} alt=""/>
+      <img className=' slideimage1' src={bantabmob} alt="mob app development"/>
      
       </div>
       <div>
       
-          <img className=' slideimage1' src={dmtab} alt=""/>
+          <img className=' slideimage1' src={dmtab} alt="digital marketing"/>
          
           </div>
           <div>
       
-      <img className=' slideimage1' src={qatab} alt=""/>
+      <img className=' slideimage1' src={qatab} alt="software testing"/>
      
       </div>
        
@@ -148,22 +149,22 @@ const Slideshow = () => {
         <Slider {...settingsmob}>
           <div>
       
-          <img className=' slideimage1' src={banmob}  alt=""/>
+          <img className=' slideimage1' src={banmob}  alt="web development"/>
          
           </div>
           <div>
       
-      <img className=' slideimage1'  src={banmobmob} alt=""/>
+      <img className=' slideimage1'  src={banmobmob} alt="mob app development"/>
      
       </div>
       <div>
       
-          <img className=' slideimage1'  src={dmmob} alt=""/>
+          <img className=' slideimage1'  src={dmmob} alt="digital marketing"/>
          
           </div>
           <div>
       
-      <img className=' slideimage1' src={qamob} alt=""/>
+      <img className=' slideimage1' src={qamob} alt="software testing"/>
      
       </div>
        

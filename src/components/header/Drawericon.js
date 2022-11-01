@@ -2,7 +2,7 @@ import { Drawer, Grid, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./Drawericon.css";
-import { HiOutlineMenu } from "react-icons/hi";
+
 import {AiOutlineClose} from "react-icons/ai";
 
 const Drawericon = () => {

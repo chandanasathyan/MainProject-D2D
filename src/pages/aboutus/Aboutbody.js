@@ -1,8 +1,8 @@
 import React from 'react'
 import { Grid } from '@mui/material'
 import "./Aboutbody.css"
-import img from "../../assets/aboutimg.jpg";
-import imgg from "../../assets/ab.jpg";
+import img from "../../Assests/aboutbody/aboutimg.jpg";
+import imgg from "../../Assests/aboutbody/ab.jpg";
 import { motion } from "framer-motion"
 
 const Aboutbody = () => {
@@ -31,7 +31,7 @@ const Aboutbody = () => {
 
           <Grid item md={6} xs={12} sm={12}>
            <motion.div initial={{x:250}} animate={{x:0}} transition={{type: "spring", duration:2 }}>
-             <img className='img1' src={img} alt="/"/>
+             <img className='img1' src={img} alt="about us"/>
            </motion.div>
           </Grid>
         </Grid>
@@ -43,7 +43,7 @@ const Aboutbody = () => {
         <Grid container className='about1'>  
           <Grid item md={6} xs={12} sm={12}>
           <motion.div initial={{x:-250}} animate={{x:0}} transition={{type: "spring", duration:2 }}>
-             <img className='img2' src={imgg} alt="/"/>
+             <img className='img2' src={imgg}  alt="about us"/>
           </motion.div> 
           </Grid>
 
@@ -79,7 +79,7 @@ const Aboutbody = () => {
 
           <Grid item md={6} xs={12} sm={12}>
           <motion.div initial={{x:250}} animate={{x:0}} transition={{type: "spring", duration:2 }}>
-             <img className='img1' src={img} alt="/"/>
+             <img className='img1' src={img}  alt="about us"/>
           </motion.div> 
           </Grid>
         </Grid>
@@ -91,7 +91,7 @@ const Aboutbody = () => {
         <Grid container className='about1'>  
           <Grid item md={6} xs={12} sm={12}>
           <motion.div initial={{x:-250}} animate={{x:0}} transition={{type: "spring", duration:2 }}>
-             <img className='img2' src={imgg} alt="/"/>
+             <img className='img2' src={imgg}  alt="about us"/>
           </motion.div> 
           </Grid>
 

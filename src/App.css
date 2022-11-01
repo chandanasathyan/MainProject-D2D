@@ -8,64 +8,19 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.fixed-chat{
-  display: flex;
-  justify-content: end;
-  position: fixed;
-  bottom: 30px;
-  right: 10px; 
-  font-size: 50px;
-}
-#chat-dialog{
-  margin-left: 900px;
-}
-
-#close-icon{
- font-size: 20px;
-text-align: right;
-margin-right: 20px;
-}
 
 
-@media only screen and (max-width: 1024px){
-  #chat-dialog{
-  
-    margin-left: 500px;
-  }
-}
-
-@media only screen and (max-width: 768px){
-  #chat-dialog{
-  
-    margin-left: 300px;
-  }
-}
-
-@media only screen and (max-width: 540px){
-  #chat-dialog{
-  
-    margin-left: 100px;
-  }
-}
-
-@media only screen and (max-width: 425px){
-  #chat-dialog{
-  
-    margin-left: 80px;
-  }
-}
-
-@media only screen and (max-width: 375px){
-  #chat-dialog{
-  
-    margin-left: 0px;
-  }
-}
 
 
-@media only screen and (max-width: 320px){
-  #chat-dialog{
-  
-    margin-left: -20px;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 import { Grid } from '@mui/material'
 import React from 'react'
 import "./Testimonicards.css"
-import profile from "../../assets/people1.png";
+import profile from "../../Assests/testimonialscards/people1.png";
 import { FcGoogle } from 'react-icons/fc';
 import { BsMicrosoft } from 'react-icons/bs';
 
@@ -16,7 +16,7 @@ const Testimonicards = () => {
            <div class="uk-card-header">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
              <div class="uk-width-auto">
-                <img class="uk-border-circle" src={profile} alt=""/>
+                <img class="uk-border-circle" src={profile} alt="Avatar"/>
              </div>
              <div className='testipara'>
                 <p className="para">Amala P</p>   
@@ -35,7 +35,7 @@ const Testimonicards = () => {
           <div class="uk-card-header">
            <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
-                <img class="uk-border-circle" width="50" height="50"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/>
+                <img class="uk-border-circle" width="50" height="50" src={profile}  alt="Avatar"/>
             </div>
             <div >
               <p className="para">Arun VS</p>   
@@ -73,7 +73,7 @@ const Testimonicards = () => {
           <div class="uk-card-header">
            <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
-                <img class="uk-border-circle" width="50" height="50"  src="https://graphicriver.img.customer.envatousercontent.com/files/383753376/Letter+A+Logo+-+Anglex_1.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=1322843b6a4dc44c34d61c195d61ee3e" alt="Avatar"/>
+                <img class="uk-border-circle" width="50" height="50"  src={profile} alt="Avatar"/>
             </div>
             <div >
               <p className="para">Madhav</p>   
