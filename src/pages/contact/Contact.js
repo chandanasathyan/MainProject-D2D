@@ -14,7 +14,7 @@ import "./Contact.css";
 
 import Contactbanner from "./Contactbanner";
 
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 
 
 
