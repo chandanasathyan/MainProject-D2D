@@ -102,7 +102,7 @@ variants={navlinkanimation} initial="hidden" animate="visible"
  <Grid className='navtablogo'  item xs={10} sm={10}>
 
   <div  className='navtablogodiv'>
- <p>  <Link >
+ <p>  <Link  to="/">
  
  <img className='navtablogo1' src={logodare} alt="" srcset="" />
  </Link>
