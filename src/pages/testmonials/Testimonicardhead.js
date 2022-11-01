@@ -12,4 +12,4 @@ const Testimonicardhead = () => {
   )
 }
 
-export default Testimonicardhead
+export default Testimonicardhead;
