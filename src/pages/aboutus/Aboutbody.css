@@ -1,18 +1,23 @@
+.aboutushead{
+    margin-top: 150px;
+    text-align: center;   
+}
+.abouthead{
+    font-weight: bold; 
+}
+
 .about{
     margin-top: 100px;
     margin-bottom: 100px;
-}
-.abouth1{
-    text-align: center;
 }
 .abouth3{
     margin-left: 170px;
     font-weight: bold;
 }
-.aboutp{
+.aboutpara{
    margin-left: 170px;
    margin-right: 100px;
-   font-size: 18px;
+   font-size: 16px;
 }
 .img1{
     width: 500px;
@@ -22,11 +27,541 @@
     width: 500px;
     margin-left: 170px;
 }
-.abouth33{
+.aboutush3{
     margin-left: 30px;
+    font-weight: bold; 
 }
-.aboutpp{
+.aboutusp{
     margin-left: 30px;
-    margin-right: 170px;
-    font-size: 18px;
+    margin-right: 190px;
+    font-size: 16px;
+}
+
+
+
+/* ------------------1280 view----------------- */
+
+@media only screen and (max-width: 1280px){
+    .abouth3{
+        margin-left: 140px;
+    }
+    .aboutpara{
+        margin-left: 140px;
+        margin-right: 50px;
+        font-size: 15px;
+     }
+     .img1{
+        width:480px;
+        margin-left: 50px;
+     }
+     .img2{
+        width: 480px;
+        margin-left: 140px;
+     }
+     .aboutush3{
+        margin-left: 50px;
+     }
+     .aboutusp{
+        margin-left: 50px;
+        margin-right: 140px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------1024 view----------------- */
+
+@media only screen and (max-width: 1024px){
+    .abouth3{
+        margin-left: 70px;
+    }
+    .aboutpara{
+        margin-left: 70px;
+        margin-right: 60px;
+        font-size: 15px;
+     }
+     .img1{
+        width:430px;
+        margin-left: 15px;
+     }
+     .img2{
+        width: 430px;
+        margin-left: 70px;
+     }
+     .aboutush3{
+        margin-left: 15px;
+     }
+     .aboutusp{
+        margin-left: 15px;
+        margin-right: 70px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------912 view----------------- */
+
+@media only screen and (max-width: 912px){
+    .abouth3{
+        margin-left: 50px;
+    }
+    .aboutpara{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+     }
+     .img1{
+        width:400px;
+        margin-left: 25px;
+     }
+     .img2{
+        width: 400px;
+        margin-left: 50px;
+     }
+     .aboutush3{
+        margin-left: 15px;
+     }
+     .aboutusp{
+        margin-left: 15px;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------820 view----------------- */
+
+@media only screen and (max-width: 820px){
+    .aboutushead{
+        margin-top: -120px;
+    }
+    .abouth3{
+        margin-left: 70px;
+    }
+    .aboutpara{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 50px;
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 70px;
+     }
+     .aboutusp{
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------768 view----------------- */
+
+@media only screen and (max-width: 768px ){
+    .aboutushead{
+        margin-top: -120px;
+    }
+    .abouth3{
+        margin-left: 70px;
+    }
+    .aboutpara{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 50px;
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 70px;
+     }
+     .aboutusp{
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------425 view----------------- */
+
+@media only screen and (max-width: 425px ){
+    .aboutushead{
+        margin-top: -60px;
+    }
+    .abouth3{
+        margin-left: 40px;
+    }
+    .aboutpara{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 350px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 350px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .aboutusp{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------414 view----------------- */
+
+@media only screen and (max-width: 414px ){
+    .aboutushead{
+        margin-top: -60px;
+    }
+    .abouth3{
+        margin-left: 40px;
+    }
+    .aboutpara{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 350px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 350px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .aboutusp{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------412 view----------------- */
+
+@media only screen and (max-width: 412px ){
+    .aboutushead{
+        margin-top: -60px;
+    }
+    .abouth3{
+        margin-left: 40px;
+    }
+    .aboutpara{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 350px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 350px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .aboutusp{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------393 view----------------- */
+
+@media only screen and (max-width: 393px ){
+    .aboutushead{
+        margin-top: -60px;
+    }
+    .abouth3{
+        margin-left: 40px;
+    }
+    .aboutpara{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 320px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 320px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .aboutusp{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------390 view----------------- */
+
+@media only screen and (max-width: 390px ){
+    .aboutushead{
+        margin-top: -60px;
+    }
+    .abouth3{
+        margin-left: 40px;
+    }
+    .aboutpara{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 300px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 300px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .aboutusp{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------375 view----------------- */
+
+@media only screen and (max-width: 375px ){
+    .aboutushead{
+        margin-top: -40px;
+    }
+    .abouth3{
+        margin-left: 40px;
+    }
+    .aboutpara{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 300px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 300px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .aboutusp{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------360 view----------------- */
+
+@media only screen and (max-width: 360px ){
+    .aboutushead{
+        margin-top: -40px;
+    }
+    .abouth3{
+        margin-left: 40px;
+    }
+    .aboutpara{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 280px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 280px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .aboutusp{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------320 view----------------- */
+
+@media only screen and (max-width: 320px ){
+    .aboutushead{
+        margin-top: -40px;
+    }
+    .abouth3{
+        margin-left: 20px;
+    }
+    .aboutpara{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 280px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 280px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 20px;
+     }
+     .aboutusp{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ------------------280 view----------------- */
+
+@media only screen and (max-width: 280px ){
+    .aboutushead{
+        margin-top: -20px;
+    }
+    .abouth3{
+        margin-left: 20px;
+    }
+    .aboutpara{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px; 
+        font-size: 15px;
+     }
+     .img1{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 240px;
+     }
+     .img2{
+        display: flex; 
+        justify-content: center;
+        margin: 0 auto;
+        width: 240px;
+     }
+     .aboutush3{
+        margin-top: 50px;
+        margin-left: 20px;
+     }
+     .aboutusp{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
 }

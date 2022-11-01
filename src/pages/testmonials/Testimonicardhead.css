@@ -1,0 +1,14 @@
+.teatimonialhead{
+    margin-top: 160px;
+    justify-content: center;
+}
+.testimonialtitle{
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px){
+    .teatimonialhead{
+        margin-top: -20px;
+    }
+}
