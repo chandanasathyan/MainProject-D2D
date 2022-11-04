@@ -1,18 +1,28 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-import { TextField, Grid, Button, CardContent, Card, Input } from "@mui/material";
+import { TextField, Grid, Button, CardContent, Card, } from "@mui/material";
 import "./Contact.css";
 
 import Contactbanner from "./Contactbanner";
 
 import Swal from "sweetalert2";
-import { useForm } from "react-hook-form";
+
+
+
+
+
 
 const Contact = () => {
+
+
   const form = useRef();
+
   const sendEmail = (e) => {
+
     e.preventDefault();
+    
+  
     Swal.fire({
       icon: "success",
 
@@ -28,21 +38,22 @@ const Contact = () => {
     e.target.reset();
   };
 
-  const {
-    register,
-  
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const formHandlechange = (event) => {
-  console.log(event.target.value)
-  };
+
+
+
+
+
+ 
 
   return (
     <>
       <Contactbanner />
 
-      <div className="contact-main">
+
+ 
+
+       
+    <div className="contact-main">
         <Grid>
           <Card id="contact-card">
             <CardContent>
@@ -51,61 +62,59 @@ const Contact = () => {
               <form
                 ref={form}
                 onSubmit={sendEmail}
-             onChange={handleSubmit(formHandlechange)}
               >
                 <Grid container spacing={1}>
                   <Grid xs={12} item>
                     <TextField
+                
                       placeholder="Enter your name"
                       name="user_name"
                       label="Name"
                       variant="outlined"
                       fullWidth
-                     
+                    
                     />
                   
                   </Grid>
 
                   <Grid item xs={12}>
                     <TextField
-                  
+            
                       type="email"
                       placeholder="Enter email"
                       label="Email"
                       name="user_email"
                       variant="outlined"
                       fullWidth
-                      {...register("email", {
-                        required: true,
-                        pattern:
-                          /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                      })}
+                     
                     />
                     <div className="email-error-msg">
-                      {errors.email && <p> Email is invalid</p>}
+                 
                     </div>
                   </Grid>
                   <Grid item xs={12}>
-                    <TextField
-                      type="phone"
+                     <TextField
+                    id="text-field"
+                      type="number"
                       placeholder="Enter phone number"
                       label="Phone"
                       name="phone"
                       variant="outlined"
                       fullWidth
                       required
-                      {...register("phone", {
-                        required: true,
-                        pattern:
-                          /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/,
-                      })}
-                    />
+                  
+                   
+                      /> 
+                           
+
+            
                     <div className="email-error-msg">
-                      {errors.phone && <p> Phone is invalid</p>}
+                     
                     </div>
                   </Grid>
                   <Grid item xs={12}>
                     <TextField
+                    
                       label="Message"
                       multiline
                       rows={4}
@@ -114,6 +123,8 @@ const Contact = () => {
                       variant="outlined"
                       fullWidth
                       required
+
+                    
                     />
                   </Grid>
                   <Grid item xs={12}>
@@ -123,6 +134,9 @@ const Contact = () => {
                       variant="contained"
                       color="primary"
                       fullWidth
+             
+           
+          
                     >
                       Submit
                     </Button>
@@ -132,7 +146,54 @@ const Contact = () => {
             </CardContent>
           </Card>
         </Grid>
-      </div>
+      </div> 
+
+
+
+
+
+{/* <Form  ref={form} onSubmit={handleSubmit(sendEmail)} >
+                <Form.Field>
+                    <label>First Name</label>
+                    <input placeholder='First Name' type="text"  
+                   
+                    />
+                </Form.Field>
+               
+                <Form.Field>
+                    <label>Last Name</label>
+                    <input placeholder='Last Name' type="text"
+                 />
+                </Form.Field>
+            <Form.Field>
+                    <label>Email</label>
+                    <input placeholder='Email' type="email" 
+                     {...register("email",
+                     {
+                         required: true,
+                         pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+                     })}
+                           
+                    />
+                </Form.Field>
+                {errors.email && <p>Please check the email</p>}
+                <Form.Field>
+                    <label>Password</label>
+                    <input placeholder='Password' type="password" 
+                     
+                  />
+                  
+                </Form.Field>
+               
+                <Button type='submit'>Submit</Button>
+            </Form> 
+
+ */}
+
+
+
+
+
     </>
   );
 };
