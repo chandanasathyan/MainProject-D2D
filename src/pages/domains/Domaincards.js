@@ -54,8 +54,8 @@ const Domaincards = () => {
            <div id='card3' class="uk-card uk-card-default uk-card-body">
               <i id='bookmark1' class="fa fa-bookmark" aria-hidden="true" style={{color:'rgb(214, 168, 51)',position:'absolute',right:'10px',top:'0px'}}></i>
               <h3 class="uk-card-title">Software Testing</h3>
-              <button className='butn3' style={{border:'none',borderRadius:"10px",backgroundColor:'#fada5e',color:"#fff"}}><span style={{fontSize:"20px",color:"#fff"}}><BiTime/></span>&nbsp;6 Months</button>
-              <button className='but3' style={{border:'none',borderRadius:"10px",backgroundColor:'#fada5e',color:"#fff"}}><i class="fa fa-inr" aria-hidden="true">&nbsp;10K</i></button>
+              <button className='butn3' style={{border:'none',borderRadius:"10px",backgroundColor:'rgb(214, 168, 51)',color:"#fff"}}><span style={{fontSize:"20px",color:"#fff"}}><BiTime/></span>&nbsp;6 Months</button>
+              <button className='but3' style={{border:'none',borderRadius:"10px",backgroundColor:'rgb(214, 168, 51)',color:"#fff"}}><i class="fa fa-inr" aria-hidden="true">&nbsp;10K</i></button>
               <ul>
                 <li><span>Automation Testing</span></li>
                 <li><span>Manual Testing</span></li>
@@ -117,10 +117,10 @@ const Domaincards = () => {
 
           <Grid item xs={12} sm={6} md={4}>
            <div id='card6' class="uk-card uk-card-default uk-card-body">
-              <i id='bookmark1' class="fa fa-bookmark" aria-hidden="true" style={{color:'seagreen',position:'absolute',right:'10px',top:'0px'}}></i>
+              <i id='bookmark1' class="fa fa-bookmark" aria-hidden="true" style={{color:'#006400',position:'absolute',right:'10px',top:'0px'}}></i>
               <h3 class="uk-card-title">Human Resource Department</h3>
-              <button className='butn6' style={{border:'none',borderRadius:"10px",backgroundColor:'#8dd9cc',color:"#fff"}}><span style={{fontSize:"20px",color:"#fff"}}><BiTime/></span>&nbsp;6 Months</button>
-              <button className='but6' style={{border:'none',borderRadius:"10px",backgroundColor:'#8dd9cc',color:"#fff"}}><i class="fa fa-inr" aria-hidden="true">&nbsp;5K</i></button>
+              <button className='butn6' style={{border:'none',borderRadius:"10px",backgroundColor:'#228B22',color:"#fff"}}><span style={{fontSize:"20px",color:"#fff"}}><BiTime/></span>&nbsp;6 Months</button>
+              <button className='but6' style={{border:'none',borderRadius:"10px",backgroundColor:'#228B22',color:"#fff"}}><i class="fa fa-inr" aria-hidden="true">&nbsp;5K</i></button>
               <ul>
                 <li><span>Recruitment and Hiring</span></li>
                 <li><span>Training and Development.</span></li>
@@ -135,10 +135,10 @@ const Domaincards = () => {
 
           <Grid item xs={12} sm={6} md={4}>
            <div id='card7' class="uk-card uk-card-default uk-card-body">
-              <i id='bookmark1' class="fa fa-bookmark" aria-hidden="true" style={{color:'pink',position:'absolute',right:'10px',top:'0px'}}></i>
+              <i id='bookmark1' class="fa fa-bookmark" aria-hidden="true" style={{color:'#d71868',position:'absolute',right:'10px',top:'0px'}}></i>
               <h3 class="uk-card-title">Bussiness<br/> Development</h3>
-              <button className='butn7' style={{border:'none',borderRadius:"10px",backgroundColor:'pink',color:"#fff"}}><span style={{fontSize:"20px",color:"#fff"}}><BiTime/></span>&nbsp;6 Months</button>
-              <button className='but7' style={{border:'none',borderRadius:"10px",backgroundColor:'pink',color:"#fff"}}><i class="fa fa-inr" aria-hidden="true">&nbsp;5K</i></button>
+              <button className='butn7' style={{border:'none',borderRadius:"10px",backgroundColor:'#f64a8a',color:"#fff"}}><span style={{fontSize:"20px",color:"#fff"}}><BiTime/></span>&nbsp;6 Months</button>
+              <button className='but7' style={{border:'none',borderRadius:"10px",backgroundColor:'#f64a8a',color:"#fff"}}><i class="fa fa-inr" aria-hidden="true">&nbsp;5K</i></button>
               <ul>
                 <li><span>Oversee the sales process to attract new clients.</span></li>
                 <li><span>Work with senior team members to identify and manage risks.</span></li>
