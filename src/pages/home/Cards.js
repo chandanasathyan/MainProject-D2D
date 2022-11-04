@@ -79,12 +79,12 @@ animate={animation}
           <div className='card-content-web'>
             <ul>
             <li>
-              <span>HTML,CSS, Javascript </span>  
+              <span>HTML </span>  
                     </li>
                     <li>
               <span>CSS </span>  
                     </li> 
-                 <li>
+                    <li>
               <span>Javascript </span>  
                     </li> 
                     <li>

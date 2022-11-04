@@ -112,18 +112,19 @@ text-align: start;
 
 
     .copyright-text{
-      margin-top: 33px;
-  margin-left: 50px;
+text-align: center;
+      margin-top: 10px;
+  /* margin-left: 50px; */
 color: #111;
 font-size: 13px;
 
     }
     
     .copyright-icons{
-      margin-top: 25px;
-  margin-left: 280px;
+      margin-top: 10px;
+      text-align: center;
 color: #39f;
-font-size:24px;
+font-size:28px;
 letter-spacing: 20px;
 
     }
@@ -133,11 +134,11 @@ letter-spacing: 20px;
 /* responsive  */
 
 @media only screen and (max-width: 1280px){
-  .copyright-icons{
+  /* .copyright-icons{
     margin-left: 280px;
     font-size:20px;
     letter-spacing: 20px;
-      }
+      } */
       
 }
       
@@ -170,7 +171,7 @@ letter-spacing: 20px;
     margin-left: 123px;
     margin-right: 0px; 
   }
-  .copyright{
+  /* .copyright{
     
   }
   .copyright-text{
@@ -183,7 +184,7 @@ font-size: 12px;
 margin-left: 170px;
 font-size:20px;
 letter-spacing: 20px;
-  }
+  } */
   
 
 
@@ -222,7 +223,7 @@ letter-spacing: 20px;
     margin-right: 0px; 
   }
 
-  .copyright-text{
+  /* .copyright-text{
  margin-left: 50px;
         font-size: 12px;
         
@@ -234,7 +235,7 @@ letter-spacing: 20px;
         text-align: center;
         font-size:23px;
         letter-spacing: 20px;
-          }
+          } */
     }
 
 
@@ -272,13 +273,13 @@ letter-spacing: 20px;
   }
   
           
-          .copyright-icons{
+          /* .copyright-icons{
         
         margin-left: 75px;
      
         font-size:20px;
         letter-spacing: 20px;
-          }
+          } */
 
 
 
@@ -321,11 +322,11 @@ letter-spacing: 20px;
     
       }
       
-      .copyright-icons{
+      /* .copyright-icons{
     margin-left: 75px;
     font-size:18px;
     letter-spacing: 20px;
-      }
+      } */
 
     }    
 
@@ -362,7 +363,7 @@ letter-spacing: 20px;
     margin-right: 0px; 
   }
 
-  .copyright-text{
+  /* .copyright-text{
 margin-top: 50px;
 margin-left: 60px;
     font-size: 16px;
@@ -375,7 +376,7 @@ margin-left: 60px;
     text-align: center;
     font-size:25px;
     letter-spacing: 20px;
-      }
+      } */
     }    
 
    
@@ -411,7 +412,7 @@ margin-left: 60px;
     margin-right: 0px; 
   }
 
-  .copyright-text{
+  /* .copyright-text{
 margin-top: 50px;
 margin-left: 35px;
     font-size: 14px;
@@ -424,12 +425,12 @@ margin-left: 35px;
     text-align: center;
     font-size:23px;
     letter-spacing: 20px;
-      }
+      } */
     }    
 
 
      @media only screen and (max-width: 375px){
-      .copyright-text{
+      /* .copyright-text{
         margin-top: 50px;
         margin-left: 0px;
         text-align: center;
@@ -442,12 +443,12 @@ margin-left: 35px;
             text-align: center;
             font-size:23px;
             letter-spacing: 20px;
-              }
+              } */
     } 
 
 
      @media only screen and (max-width: 320px){
-      .copyright-text{
+     /* .copyright-text{ 
         margin-top: 50px;
         margin-left: 0px;
         text-align: center;
@@ -460,5 +461,5 @@ margin-left: 35px;
             text-align: center;
             font-size:23px;
             letter-spacing: 20px;
-              }
+              } */
     }

@@ -17,9 +17,12 @@ text-align: center;
 font-size: 40px;
 }
 
+/* contact-form error messages */
 
-
-
+.email-error-msg{
+font-size: 15px;
+color: red;
+}
 
 
 

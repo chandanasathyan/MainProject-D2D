@@ -69,19 +69,25 @@ const Footer = () => {
 
 <div className='copyright'>
 <Grid container>
-<Grid item xs={12} sm={7} >
-  <div className='copyright-text'>
-  <p>Copyright © 2022 websoullabs. All Rights Reserved</p>
-  </div>
 
-</Grid>
-<Grid item xs={12} sm={5} >
+
+
+<Grid item xs={12} >
   <div  className='copyright-icons'>
  
   <AiFillLinkedin/>    <FaFacebookF/>  <FaInstagram/>  <FaWhatsapp/>  <FaTwitter/>
   </div>
 
 </Grid>
+
+
+<Grid item xs={12}  >
+  <div className='copyright-text'>
+  <p>Copyright © 2022 websoullabs. All Rights Reserved</p>
+  </div>
+
+</Grid>
+
 
 
 </Grid>
