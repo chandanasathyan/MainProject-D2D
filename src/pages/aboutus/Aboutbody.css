@@ -211,6 +211,9 @@
 /* ------------------425 view----------------- */
 
 @media only screen and (max-width: 425px ){
+    .about{
+        margin-top: 50px;
+    }
     .aboutushead{
         margin-top: -60px;
     }
