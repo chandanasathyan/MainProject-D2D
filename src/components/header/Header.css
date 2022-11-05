@@ -35,6 +35,7 @@
    }
    .navlinkss{
     margin-top: 35px;
+    
    }
     
     .navlink1{
@@ -43,14 +44,14 @@
         margin: 20px;
         font-weight: bold;
         font-size: 14px;
-        /* margin-left: 50px; */
+      
         position: relative;
         }
         
         .navlink1::before{
             content: "";
-            background-color: #111;
-            color: #111;
+            background-color:#00cccc;
+            color:#00cccc;
             height: 2px;
             position: absolute;
             width: 100%;
@@ -69,8 +70,9 @@
         }
         .navlink1:hover{
             text-decoration: none;
-            color:#111;
+          color: #00cccc;
         }
+       
         
         .navbutton{
             text-align: end;
@@ -95,6 +97,18 @@
             padding-left: 20px;
             padding-right: 20px;
         }
+
+
+.navlinkss .active{
+color:#00cccc;
+
+border-bottom:  2px solid #00cccc;
+width: 100%;
+border-radius: 1px;
+
+
+}
+
         
         /* tab */
         

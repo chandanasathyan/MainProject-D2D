@@ -23,7 +23,7 @@ font-family: 'Poppins', sans-serif;
 .footer-para1{
     font-size: 16px;
   margin-left: 100px;
-    line-height: 30px;
+    line-height: 35px;
   text-align: start;
 font-family: 'Poppins', sans-serif;
 }
@@ -46,6 +46,7 @@ font-family: 'Poppins', sans-serif;
 
 
 .footer-links{
+  margin-top: 28px;
 font-size: 14px;
 text-align: start;
  margin-left: 200px; 

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link,NavLink } from 'react-router-dom'
+
 import "./Header.css"
 import AppBar from '@mui/material/AppBar';
 import { Grid, Toolbar, Typography } from '@mui/material';
@@ -84,10 +85,10 @@ variants={navlinkanimation} initial="hidden" animate="visible"
   
   >
 
-<Link  style={{textDecoration:"none"}}  className='navlink1' to="/domains">DOMAINS</Link>  
-<Link  style={{textDecoration:"none"}}  className='navlink1' to="/testimonials">TESTIMONIALS</Link>  
-<Link  style={{textDecoration:"none"}}  className='navlink1' to="/about">ABOUT US</Link>  
-<Link  style={{textDecoration:"none"}}  className='navlink1' to="/contact">CONTACT US</Link>  
+<NavLink style={{textDecoration:"none"}}  className='navlink1' to="/domains">DOMAINS</NavLink>  
+<NavLink  style={{textDecoration:"none"}}  className='navlink1' to="/testimonials">TESTIMONIALS</NavLink>  
+<NavLink  style={{textDecoration:"none"}}  className='navlink1' to="/about">ABOUT US</NavLink>  
+<NavLink  style={{textDecoration:"none"}}  className='navlink1' to="/contact">CONTACT US</NavLink>  
 
 </motion.nav>
 

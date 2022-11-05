@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import { TextField, Grid, Button, CardContent, Card, } from "@mui/material";
@@ -13,16 +13,16 @@ import Swal from "sweetalert2";
 
 
 
+
 const Contact = () => {
-
-
+ 
   const form = useRef();
 
   const sendEmail = (e) => {
-
+   
     e.preventDefault();
     
-  
+
     Swal.fire({
       icon: "success",
 
@@ -60,8 +60,9 @@ const Contact = () => {
               <p className="contact-us-text">Contact Us</p>
 
               <form
-                ref={form}
+              ref={form}
                 onSubmit={sendEmail}
+                
               >
                 <Grid container spacing={1}>
                   <Grid xs={12} item>
@@ -72,9 +73,9 @@ const Contact = () => {
                       label="Name"
                       variant="outlined"
                       fullWidth
-                    
+                      
                     />
-                  
+               
                   </Grid>
 
                   <Grid item xs={12}>
@@ -86,12 +87,11 @@ const Contact = () => {
                       name="user_email"
                       variant="outlined"
                       fullWidth
-                     
+                    
                     />
-                    <div className="email-error-msg">
-                 
-                    </div>
+                
                   </Grid>
+               
                   <Grid item xs={12}>
                      <TextField
                     id="text-field"
@@ -103,14 +103,10 @@ const Contact = () => {
                       fullWidth
                       required
                   
-                   
+                    
                       /> 
                            
-
-            
-                    <div className="email-error-msg">
-                     
-                    </div>
+                          
                   </Grid>
                   <Grid item xs={12}>
                     <TextField
