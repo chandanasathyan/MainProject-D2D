@@ -60,17 +60,12 @@ const Footer = () => {
 
 </Grid>
 
-
-
-
 </Grid>
 
-        </div>
+</div>
 
 <div className='copyright'>
 <Grid container>
-
-
 
 <Grid item xs={12} >
   <div  className='copyright-icons'>
@@ -80,15 +75,12 @@ const Footer = () => {
 
 </Grid>
 
-
 <Grid item xs={12}  >
   <div className='copyright-text'>
   <p>Copyright © 2022 websoullabs. All Rights Reserved</p>
   </div>
 
 </Grid>
-
-
 
 </Grid>
 </div>

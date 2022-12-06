@@ -2,32 +2,31 @@
 
 
 
-.footer-main-div{
-  
+.footer-main-div{ 
     margin-top: 100px;
     background: #f8f8f8;
     width: 100%;
     justify-content: center;
     align-items: center;
-    text-align: center;
-   
-}
-.footer-head1{
-  margin-top: 70px;
-font-size: 35px;
-text-align: start;
- margin-left: 100px; 
-color: #111;
-font-family: 'Poppins', sans-serif;
-}
-.footer-para1{
-    font-size: 16px;
-  margin-left: 100px;
-    line-height: 30px;
-  text-align: start;
-font-family: 'Poppins', sans-serif;
+    text-align: center;  
 }
 
+.footer-head1{
+    margin-top: 70px;
+    font-size: 35px;
+    text-align: start;
+    margin-left: 100px; 
+    color: #111;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-para1{
+    font-size: 16px;
+    margin-left: 100px;
+    line-height: 35px;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -35,17 +34,18 @@ font-family: 'Poppins', sans-serif;
 
 
 .footer-head2{
-  margin-top: 70px;
+    margin-top: 70px;
     font-size: 35px;
     text-align: start;
     margin-left: 180px;
     color: #111;
     font-family: 'Poppins', sans-serif;
-    }
+}
 
 
 
 .footer-links{
+  margin-top: 28px;
 font-size: 14px;
 text-align: start;
  margin-left: 200px; 

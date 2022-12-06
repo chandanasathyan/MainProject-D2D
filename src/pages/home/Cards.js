@@ -216,8 +216,6 @@ animate={animation}
     </Grid>
 
 
-
-
     <Grid item md={3} sm={6} xs={12} > 
 
 <div className="card-main">
@@ -253,17 +251,9 @@ animate={animation}
     </div>
     </Grid>
 
-
-
-
     </Grid>
     </motion.div>
     </div>
-
-
-
-
-
 
     </>
   )
