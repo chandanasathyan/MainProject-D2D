@@ -11,28 +11,8 @@ const Drawericon = () => {
   const [open,setOpen] = useState(false)
   
 
-
   return (
     <>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   <Grid container sx={{ display: { xs: 'flex', sm:"flex", md:"none", lg: 'none', xl: 'none' } }} >
     <Drawer   anchor='right' PaperProps={{
@@ -48,13 +28,8 @@ const Drawericon = () => {
     <li onClick={()=>{setOpen(false)}} ><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/about">ABOUT US</Link>   </li>
        <li onClick={()=>{setOpen(false)}} ><Link  style={{textDecoration:"none"}}  className='navtablink1' to="/contact">CONTACT US</Link>   </li>
 
-
-
-
 </ul>
 </div>
-
-
 
 
    </Drawer>
@@ -63,21 +38,6 @@ const Drawericon = () => {
      </div>
      </Grid> 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </>
   )
 }

@@ -9,15 +9,9 @@ import Domains from './pages/domains/Domains'
 import About from './pages/aboutus/About'
 import Footer from './components/footer/Footer';
 
-
-
-
-
 import { AnimatePresence } from "framer-motion";
 
 function App() {
-
- 
 
  const location = useLocation()
 
@@ -38,26 +32,15 @@ function App() {
   </Routes> 
     
 
-      
-
-      
       </AnimatePresence> 
    <Footer/>   
 
 
 
   <div>
-
-     
-    
+ 
     </div>
    
-
-
-
-
-
-
     </>
 
   );

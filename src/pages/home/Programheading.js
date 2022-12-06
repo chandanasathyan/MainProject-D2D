@@ -2,11 +2,11 @@ import React from 'react'
 import "./Programheading.css"
 import { motion } from "framer-motion"
 import {Grid} from "@mui/material";
+
+
 const Programheading = () => {
   return (
     <div>
-
-
 
 <Grid container>
   <Grid item xs={12}>

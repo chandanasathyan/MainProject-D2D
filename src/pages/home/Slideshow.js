@@ -24,7 +24,6 @@ import "slick-carousel/slick/slick-theme.css"
 
 
 
-
 const Slideshow = () => {
 
 
@@ -73,8 +72,6 @@ const Slideshow = () => {
 
   return (
     <>
-
-   
 
       <div style={{marginTop:"95px",overflow:"hidden"}}>
  
@@ -172,30 +169,8 @@ const Slideshow = () => {
         </Grid>
         </Grid>
 
-
-
       </div>
-    
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
+  
     </>
   )
 }

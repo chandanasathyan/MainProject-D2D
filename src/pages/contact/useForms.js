@@ -1,8 +1,6 @@
 import  { useState } from "react";
 
 
-
-
  export const useForms = (initialValue) => {
 
     const [value,setValue] = useState(initialValue)
@@ -17,10 +15,7 @@ import  { useState } from "react";
             [event.target.name] : event.target.value,
         })
     }
-    
-    
-    
-    
+      
   ]
 }
 

@@ -24,8 +24,6 @@ className='contact-banner'>
 </div>
 </Grid>
 
-
-
 </Grid>
 
 {/* tab */}
@@ -37,8 +35,6 @@ className='contact-banner'>
 <img className='contact-img' src={contactbantab} alt="" srcset="" />
 </div>
 </Grid>
-
-
 
 </Grid>
 
@@ -52,11 +48,7 @@ className='contact-banner'>
 </div>
 </Grid>
 
-
-
 </Grid>
-
-
 
 </motion.div>
 

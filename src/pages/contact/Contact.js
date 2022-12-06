@@ -11,9 +11,6 @@ import Swal from "sweetalert2";
 
 
 
-
-
-
 const Contact = () => {
  
   const form = useRef();
@@ -39,20 +36,10 @@ const Contact = () => {
   };
 
 
-
-
-
-
- 
-
   return (
     <>
       <Contactbanner />
-
-
- 
-
-       
+  
     <div className="contact-main">
         <Grid>
           <Card id="contact-card">
@@ -143,51 +130,6 @@ const Contact = () => {
           </Card>
         </Grid>
       </div> 
-
-
-
-
-
-{/* <Form  ref={form} onSubmit={handleSubmit(sendEmail)} >
-                <Form.Field>
-                    <label>First Name</label>
-                    <input placeholder='First Name' type="text"  
-                   
-                    />
-                </Form.Field>
-               
-                <Form.Field>
-                    <label>Last Name</label>
-                    <input placeholder='Last Name' type="text"
-                 />
-                </Form.Field>
-            <Form.Field>
-                    <label>Email</label>
-                    <input placeholder='Email' type="email" 
-                     {...register("email",
-                     {
-                         required: true,
-                         pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-                     })}
-                           
-                    />
-                </Form.Field>
-                {errors.email && <p>Please check the email</p>}
-                <Form.Field>
-                    <label>Password</label>
-                    <input placeholder='Password' type="password" 
-                     
-                  />
-                  
-                </Form.Field>
-               
-                <Button type='submit'>Submit</Button>
-            </Form> 
-
- */}
-
-
-
 
 
     </>

@@ -27,7 +27,6 @@ const navlogoanimation = {
 }
 
 
-
 const navlinkanimation = {
   hidden:{
     opacity:0,
@@ -45,12 +44,7 @@ const navlinkanimation = {
 }
 
 
-
-
 const Header = () => {
-
-
-
 
   
   return (
